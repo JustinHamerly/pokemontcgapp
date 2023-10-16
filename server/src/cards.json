@@ -1,0 +1,4617 @@
+[
+  {
+    "name": "grass",
+    "set": "e",
+    "set_num": 1,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/1.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "fire",
+    "set": "e",
+    "set_num": 2,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/2.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "water",
+    "set": "e",
+    "set_num": 3,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/3.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "lightning",
+    "set": "e",
+    "set_num": 4,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/4.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "psychic",
+    "set": "e",
+    "set_num": 5,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/5.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "fighting",
+    "set": "e",
+    "set_num": 6,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/6.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "darkness",
+    "set": "e",
+    "set_num": 7,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/7.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "metal",
+    "set": "e",
+    "set_num": 8,
+    "rarity": "energy",
+    "illustrator": "-",
+    "img_path": "/e/8.jpg",
+    "non_basic_energy": false
+  },
+  {
+    "name": "pineco",
+    "set": "sv",
+    "set_num": 1,
+    "rarity": "common",
+    "illustrator": "shigenori negishi",
+    "img_path": "/sv/1.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "heracross",
+    "set": "sv",
+    "set_num": 2,
+    "rarity": "uncommon",
+    "illustrator": "taira akitsu",
+    "img_path": "/sv/2.jpg",
+    "stage": "basic",
+    "hp": 120,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "shroomish",
+    "set": "sv",
+    "set_num": 3,
+    "rarity": "common",
+    "illustrator": "kurumitsu",
+    "img_path": "/sv/3.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "breloom",
+    "set": "sv",
+    "set_num": 4,
+    "rarity": "uncommon",
+    "illustrator": "ryuta fuse",
+    "img_path": "/sv/4.jpg",
+    "stage": "stageone",
+    "hp": 110,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "shroomish"
+  },
+  {
+    "name": "cacnea",
+    "set": "sv",
+    "set_num": 5,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/5.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "cacturne",
+    "set": "sv",
+    "set_num": 6,
+    "rarity": "uncommon",
+    "illustrator": "DOM",
+    "img_path": "/sv/6.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "cacnea"
+  },
+  {
+    "name": "tropius",
+    "set": "sv",
+    "set_num": 7,
+    "rarity": "common",
+    "illustrator": "aoki",
+    "img_path": "/sv/7.jpg",
+    "stage": "basic",
+    "hp": 100,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "scatterbug",
+    "set": "sv",
+    "set_num": 8,
+    "rarity": "common",
+    "illustrator": "sowsow",
+    "img_path": "/sv/8.jpg",
+    "stage": "basic",
+    "hp": 30,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "spewpa",
+    "set": "sv",
+    "set_num": 9,
+    "rarity": "common",
+    "illustrator": "kagemaru himeno",
+    "img_path": "/sv/9.jpg",
+    "stage": "stageone",
+    "hp": 70,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "scatterbug"
+  },
+  {
+    "name": "vivillon",
+    "set": "sv",
+    "set_num": 10,
+    "rarity": "uncommon",
+    "illustrator": "atsuko nishida",
+    "img_path": "/sv/10.jpg",
+    "stage": "stagetwo",
+    "hp": 120,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "spewpa"
+  },
+  {
+    "name": "skiddo",
+    "set": "sv",
+    "set_num": 11,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/11.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "gogoat",
+    "set": "sv",
+    "set_num": 12,
+    "rarity": "common",
+    "illustrator": "gemi",
+    "img_path": "/sv/12.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "skiddo"
+  },
+  {
+    "name": "sprigatito",
+    "set": "sv",
+    "set_num": 13,
+    "rarity": "common",
+    "illustrator": "saya tsuruta",
+    "img_path": "/sv/13.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "floragato",
+    "set": "sv",
+    "set_num": 14,
+    "rarity": "uncommon",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/14.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "sprigatito"
+  },
+  {
+    "name": "meowscarada",
+    "set": "sv",
+    "set_num": 15,
+    "rarity": "rare",
+    "illustrator": "ryota murayama",
+    "img_path": "/sv/15.jpg",
+    "stage": "stagetwo",
+    "hp": 160,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "floragato"
+  },
+  {
+    "name": "tarountula",
+    "set": "sv",
+    "set_num": 16,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/16.jpg",
+    "stage": "basic",
+    "hp": 40,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "tarountula",
+    "set": "sv",
+    "set_num": 17,
+    "rarity": "common",
+    "illustrator": "pani kobayashi",
+    "img_path": "/sv/17.jpg",
+    "stage": "basic",
+    "hp": 40,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "tarountula",
+    "set": "sv",
+    "set_num": 18,
+    "rarity": "common",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/18.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "spidops",
+    "set": "sv",
+    "set_num": 19,
+    "rarity": "double-rare",
+    "illustrator": "takuyoa",
+    "img_path": "/sv/19.jpg",
+    "stage": "stageone",
+    "hp": 260,
+    "type": "grass",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "tarountula"
+  },
+  {
+    "name": "smoliv",
+    "set": "sv",
+    "set_num": 20,
+    "rarity": "common",
+    "illustrator": "yuu",
+    "img_path": "/sv/20.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "smoliv",
+    "set": "sv",
+    "set_num": 21,
+    "rarity": "common",
+    "illustrator": "shibuzoh",
+    "img_path": "/sv/21.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "dolliv",
+    "set": "sv",
+    "set_num": 22,
+    "rarity": "common",
+    "illustrator": "mina nakai",
+    "img_path": "/sv/22.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "smoliv"
+  },
+  {
+    "name": "arboliva",
+    "set": "sv",
+    "set_num": 23,
+    "rarity": "rare",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/23.jpg",
+    "stage": "stagetwo",
+    "hp": 150,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "dolliv"
+  },
+  {
+    "name": "toedscool",
+    "set": "sv",
+    "set_num": 24,
+    "rarity": "common",
+    "illustrator": "shin nagasawa",
+    "img_path": "/sv/24.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "toedscool",
+    "set": "sv",
+    "set_num": 25,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/25.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "toedscruel",
+    "set": "sv",
+    "set_num": 26,
+    "rarity": "uncommon",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/26.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "toedscool"
+  },
+  {
+    "name": "capsakid",
+    "set": "sv",
+    "set_num": 27,
+    "rarity": "common",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/27.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "capsakid",
+    "set": "sv",
+    "set_num": 28,
+    "rarity": "common",
+    "illustrator": "gidora",
+    "img_path": "/sv/28.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "scovillain",
+    "set": "sv",
+    "set_num": 29,
+    "rarity": "uncommon",
+    "illustrator": "keiichiro ito",
+    "img_path": "/sv/29.jpg",
+    "stage": "stageone",
+    "hp": 110,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "capsakid"
+  },
+  {
+    "name": "growlithe",
+    "set": "sv",
+    "set_num": 30,
+    "rarity": "common",
+    "illustrator": "kawayoo",
+    "img_path": "/sv/30.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "growlithe",
+    "set": "sv",
+    "set_num": 31,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/31.jpg",
+    "stage": "basic",
+    "hp": 90,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "fire"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 3
+  },
+  {
+    "name": "arcanine",
+    "set": "sv",
+    "set_num": 32,
+    "rarity": "double-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/32.jpg",
+    "stage": "stageone",
+    "hp": 280,
+    "type": "fire",
+    "ex": true,
+    "tera": true,
+    "move_costs": [
+      "fire"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "growlithe"
+  },
+  {
+    "name": "houndour",
+    "set": "sv",
+    "set_num": 33,
+    "rarity": "common",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/33.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "houndoom",
+    "set": "sv",
+    "set_num": 34,
+    "rarity": "common",
+    "illustrator": "hncl",
+    "img_path": "/sv/34.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "houndour"
+  },
+  {
+    "name": "torkoal",
+    "set": "sv",
+    "set_num": 35,
+    "rarity": "uncommon",
+    "illustrator": "kurata so",
+    "img_path": "/sv/35.jpg",
+    "stage": "basic",
+    "hp": 130,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 3
+  },
+  {
+    "name": "fuecoco",
+    "set": "sv",
+    "set_num": 36,
+    "rarity": "common",
+    "illustrator": "akira komayama",
+    "img_path": "/sv/36.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "crocalor",
+    "set": "sv",
+    "set_num": 37,
+    "rarity": "uncommon",
+    "illustrator": "kantaro",
+    "img_path": "/sv/37.jpg",
+    "stage": "stageone",
+    "hp": 100,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "fuecoco"
+  },
+  {
+    "name": "skeledirge",
+    "set": "sv",
+    "set_num": 38,
+    "rarity": "rare",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/38.jpg",
+    "stage": "stagetwo",
+    "hp": 180,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "crocalor"
+  },
+  {
+    "name": "charcadet",
+    "set": "sv",
+    "set_num": 39,
+    "rarity": "common",
+    "illustrator": "souichirou gunjima",
+    "img_path": "/sv/39.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "charcadet",
+    "set": "sv",
+    "set_num": 40,
+    "rarity": "common",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/40.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "armarouge",
+    "set": "sv",
+    "set_num": 41,
+    "rarity": "rare",
+    "illustrator": "akira egawa",
+    "img_path": "/sv/41.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fire",
+      "colorless"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "charcadet"
+  },
+  {
+    "name": "slowpoke",
+    "set": "sv",
+    "set_num": 42,
+    "rarity": "common",
+    "illustrator": "narumi 5ato",
+    "img_path": "/sv/42.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "slowbro",
+    "set": "sv",
+    "set_num": 43,
+    "rarity": "rare",
+    "illustrator": "shinji kanda",
+    "img_path": "/sv/43.jpg",
+    "stage": "stageone",
+    "hp": 100,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "slowpoke"
+  },
+  {
+    "name": "magikarp",
+    "set": "sv",
+    "set_num": 44,
+    "rarity": "common",
+    "illustrator": "kiyotaka oshiyama",
+    "img_path": "/sv/44.jpg",
+    "stage": "basic",
+    "hp": 30,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "gyarados",
+    "set": "sv",
+    "set_num": 45,
+    "rarity": "double-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/45.jpg",
+    "stage": "stageone",
+    "hp": 300,
+    "type": "water",
+    "ex": true,
+    "tera": true,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 4,
+    "prev_evo": "magikarp"
+  },
+  {
+    "name": "buizel",
+    "set": "sv",
+    "set_num": 46,
+    "rarity": "common",
+    "illustrator": "mizue",
+    "img_path": "/sv/46.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "floatzel",
+    "set": "sv",
+    "set_num": 47,
+    "rarity": "uncommon",
+    "illustrator": "gemi",
+    "img_path": "/sv/47.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "buizel"
+  },
+  {
+    "name": "alomomola",
+    "set": "sv",
+    "set_num": 48,
+    "rarity": "common",
+    "illustrator": "shinji kanda",
+    "img_path": "/sv/48.jpg",
+    "stage": "basic",
+    "hp": 120,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "clauncher",
+    "set": "sv",
+    "set_num": 49,
+    "rarity": "common",
+    "illustrator": "miki kudo",
+    "img_path": "/sv/49.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "clawitzer",
+    "set": "sv",
+    "set_num": 50,
+    "rarity": "common",
+    "illustrator": "souichirou gunjima",
+    "img_path": "/sv/50.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "clauncher"
+  },
+  {
+    "name": "bruxish",
+    "set": "sv",
+    "set_num": 51,
+    "rarity": "common",
+    "illustrator": "kurumitsu",
+    "img_path": "/sv/51.jpg",
+    "stage": "basic",
+    "hp": 100,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "quaxly",
+    "set": "sv",
+    "set_num": 52,
+    "rarity": "common",
+    "illustrator": "mizue",
+    "img_path": "/sv/52.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "quaxwell",
+    "set": "sv",
+    "set_num": 53,
+    "rarity": "uncommon",
+    "illustrator": "kirisaki",
+    "img_path": "/sv/53.jpg",
+    "stage": "stageone",
+    "hp": 100,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "quaxly"
+  },
+  {
+    "name": "quaquaval",
+    "set": "sv",
+    "set_num": 54,
+    "rarity": "rare",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/54.jpg",
+    "stage": "stagetwo",
+    "hp": 170,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "quaxwell"
+  },
+  {
+    "name": "wiglett",
+    "set": "sv",
+    "set_num": 55,
+    "rarity": "common",
+    "illustrator": "shin nagasawa",
+    "img_path": "/sv/55.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "wiglett",
+    "set": "sv",
+    "set_num": 56,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/56.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "wugtrio",
+    "set": "sv",
+    "set_num": 57,
+    "rarity": "uncommon",
+    "illustrator": "kiyotaka oshiyama",
+    "img_path": "/sv/57.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "wiglett"
+  },
+  {
+    "name": "cetoddle",
+    "set": "sv",
+    "set_num": 58,
+    "rarity": "common",
+    "illustrator": "shin nagasawa",
+    "img_path": "/sv/58.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "cetoddle",
+    "set": "sv",
+    "set_num": 59,
+    "rarity": "common",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/59.jpg",
+    "stage": "basic",
+    "hp": 100,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 3
+  },
+  {
+    "name": "cetitan",
+    "set": "sv",
+    "set_num": 60,
+    "rarity": "uncommon",
+    "illustrator": "anesaki dynamic",
+    "img_path": "/sv/60.jpg",
+    "stage": "stageone",
+    "hp": 180,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "cetoddle"
+  },
+  {
+    "name": "dondozo",
+    "set": "sv",
+    "set_num": 61,
+    "rarity": "rare",
+    "illustrator": "souichirou gunjima",
+    "img_path": "/sv/61.jpg",
+    "stage": "basic",
+    "hp": 160,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 4
+  },
+  {
+    "name": "tatsugiri",
+    "set": "sv",
+    "set_num": 62,
+    "rarity": "uncommon",
+    "illustrator": "okacheke",
+    "img_path": "/sv/62.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "magnemite",
+    "set": "sv",
+    "set_num": 63,
+    "rarity": "common",
+    "illustrator": "koyotaka oshiyama",
+    "img_path": "/sv/63.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "magneton",
+    "set": "sv",
+    "set_num": 64,
+    "rarity": "common",
+    "illustrator": "shiburingaru",
+    "img_path": "/sv/64.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "magnemite"
+  },
+  {
+    "name": "magnezone",
+    "set": "sv",
+    "set_num": 65,
+    "rarity": "double-rare",
+    "illustrator": "hncl",
+    "img_path": "/sv/65.jpg",
+    "stage": "stagetwo",
+    "hp": 330,
+    "type": "lightning",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "magneton"
+  },
+  {
+    "name": "mareep",
+    "set": "sv",
+    "set_num": 66,
+    "rarity": "common",
+    "illustrator": "narumi sato",
+    "img_path": "/sv/66.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "flaaffy",
+    "set": "sv",
+    "set_num": 67,
+    "rarity": "uncommon",
+    "illustrator": "kurata so",
+    "img_path": "/sv/67.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "mareep"
+  },
+  {
+    "name": "pachirisu",
+    "set": "sv",
+    "set_num": 68,
+    "rarity": "uncommon",
+    "illustrator": "naoki saito",
+    "img_path": "/sv/68.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "rotom",
+    "set": "sv",
+    "set_num": 69,
+    "rarity": "common",
+    "illustrator": "nisota niso",
+    "img_path": "/sv/69.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "rotom",
+    "set": "sv",
+    "set_num": 70,
+    "rarity": "common",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/70.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "toxel",
+    "set": "sv",
+    "set_num": 71,
+    "rarity": "common",
+    "illustrator": "yuu nishida",
+    "img_path": "/sv/71.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "toxtricity",
+    "set": "sv",
+    "set_num": 72,
+    "rarity": "uncommon",
+    "illustrator": "atsushi furusawa",
+    "img_path": "/sv/72.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "toxel"
+  },
+  {
+    "name": "pawmi",
+    "set": "sv",
+    "set_num": 73,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/73.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "pawmi",
+    "set": "sv",
+    "set_num": 74,
+    "rarity": "common",
+    "illustrator": "kantaro",
+    "img_path": "/sv/74.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "pawmo",
+    "set": "sv",
+    "set_num": 75,
+    "rarity": "common",
+    "illustrator": "saya tsuruta",
+    "img_path": "/sv/75.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "pawmi"
+  },
+  {
+    "name": "pawmot",
+    "set": "sv",
+    "set_num": 76,
+    "rarity": "rare",
+    "illustrator": "mizue",
+    "img_path": "/sv/76.jpg",
+    "stage": "stagetwo",
+    "hp": 130,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 0,
+    "prev_evo": "pawmo"
+  },
+  {
+    "name": "wattrel",
+    "set": "sv",
+    "set_num": 77,
+    "rarity": "common",
+    "illustrator": "saya tsuruta",
+    "img_path": "/sv/77.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "wattrel",
+    "set": "sv",
+    "set_num": 78,
+    "rarity": "common",
+    "illustrator": "shin nagasawa",
+    "img_path": "/sv/78.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "kilowattrel",
+    "set": "sv",
+    "set_num": 79,
+    "rarity": "uncommon",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/79.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1,
+    "prev_evo": "wattrel"
+  },
+  {
+    "name": "miraidon",
+    "set": "sv",
+    "set_num": 80,
+    "rarity": "rare",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/80.jpg",
+    "stage": "basic",
+    "hp": 120,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "miraidon",
+    "set": "sv",
+    "set_num": 81,
+    "rarity": "double-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/81.jpg",
+    "stage": "basic",
+    "hp": 220,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "lightning"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "drowzee",
+    "set": "sv",
+    "set_num": 82,
+    "rarity": "common",
+    "illustrator": "okacheke",
+    "img_path": "/sv/82.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "hypno",
+    "set": "sv",
+    "set_num": 83,
+    "rarity": "uncommon",
+    "illustrator": "toshinao aoki",
+    "img_path": "/sv/83.jpg",
+    "stage": "stageone",
+    "hp": 110,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2,
+    "prev_evo": "drowzee"
+  },
+  {
+    "name": "ralts",
+    "set": "sv",
+    "set_num": 84,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/84.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "kirlia",
+    "set": "sv",
+    "set_num": 85,
+    "rarity": "common",
+    "illustrator": "kawayoo",
+    "img_path": "/sv/85.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1,
+    "prev_evo": "ralts"
+  },
+  {
+    "name": "gardevoir",
+    "set": "sv",
+    "set_num": 86,
+    "rarity": "double-rare",
+    "illustrator": "n-design inc.",
+    "img_path": "/sv/86.jpg",
+    "stage": "stagetwo",
+    "hp": 310,
+    "type": "psychic",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2,
+    "prev_evo": "kirlia"
+  },
+  {
+    "name": "shuppet",
+    "set": "sv",
+    "set_num": 87,
+    "rarity": "common",
+    "illustrator": "jerkey",
+    "img_path": "/sv/87.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "banette",
+    "set": "sv",
+    "set_num": 88,
+    "rarity": "double-rare",
+    "illustrator": "planeta mochizuki",
+    "img_path": "/sv/88.jpg",
+    "stage": "stageone",
+    "hp": 250,
+    "type": "psychic",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2,
+    "prev_evo": "shuppet"
+  },
+  {
+    "name": "drifloon",
+    "set": "sv",
+    "set_num": 89,
+    "rarity": "common",
+    "illustrator": "taira akitsu",
+    "img_path": "/sv/89.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "drifblim",
+    "set": "sv",
+    "set_num": 90,
+    "rarity": "uncommon",
+    "illustrator": "yuu nishida",
+    "img_path": "/sv/90.jpg",
+    "stage": "stageone",
+    "hp": 110,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1,
+    "prev_evo": "drifloon"
+  },
+  {
+    "name": "flabebe",
+    "set": "sv",
+    "set_num": 91,
+    "rarity": "common",
+    "illustrator": "mizue",
+    "img_path": "/sv/91.jpg",
+    "stage": "basic",
+    "hp": 40,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "floette",
+    "set": "sv",
+    "set_num": 92,
+    "rarity": "common",
+    "illustrator": "saino misaki",
+    "img_path": "/sv/92.jpg",
+    "stage": "stageone",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "flabebe"
+  },
+  {
+    "name": "florges",
+    "set": "sv",
+    "set_num": 93,
+    "rarity": "uncommon",
+    "illustrator": "haru akasaka",
+    "img_path": "/sv/93.jpg",
+    "stage": "stagetwo",
+    "hp": 140,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "floette"
+  },
+  {
+    "name": "dedenne",
+    "set": "sv",
+    "set_num": 94,
+    "rarity": "common",
+    "illustrator": "zig",
+    "img_path": "/sv/94.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "dedenne",
+    "set": "sv",
+    "set_num": 95,
+    "rarity": "common",
+    "illustrator": "nelnal",
+    "img_path": "/sv/95.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "klefki",
+    "set": "sv",
+    "set_num": 96,
+    "rarity": "rare",
+    "illustrator": "gossan",
+    "img_path": "/sv/96.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "fidough",
+    "set": "sv",
+    "set_num": 97,
+    "rarity": "common",
+    "illustrator": "mizue",
+    "img_path": "/sv/97.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "fidough",
+    "set": "sv",
+    "set_num": 98,
+    "rarity": "common",
+    "illustrator": "saya tsuruta",
+    "img_path": "/sv/98.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "psychic"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "dachsbun",
+    "set": "sv",
+    "set_num": 99,
+    "rarity": "uncommon",
+    "illustrator": "you iribi",
+    "img_path": "/sv/99.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "psychic"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "fidough"
+  },
+  {
+    "name": "flittle",
+    "set": "sv",
+    "set_num": 100,
+    "rarity": "common",
+    "illustrator": "hitoshi ariga",
+    "img_path": "/sv/100.jpg",
+    "stage": "basic",
+    "hp": 30,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 0
+  },
+  {
+    "name": "flittle",
+    "set": "sv",
+    "set_num": 101,
+    "rarity": "common",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/101.jpg",
+    "stage": "basic",
+    "hp": 40,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "flittle",
+    "set": "sv",
+    "set_num": 102,
+    "rarity": "common",
+    "illustrator": "pani kobayashi",
+    "img_path": "/sv/102.jpg",
+    "stage": "basic",
+    "hp": 40,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "espathra",
+    "set": "sv",
+    "set_num": 103,
+    "rarity": "uncommon",
+    "illustrator": "hitoshi ariga",
+    "img_path": "/sv/103.jpg",
+    "stage": "stageone",
+    "hp": 110,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 0,
+    "prev_evo": "flittle"
+  },
+  {
+    "name": "greavard",
+    "set": "sv",
+    "set_num": 104,
+    "rarity": "common",
+    "illustrator": "yuu",
+    "img_path": "/sv/104.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2
+  },
+  {
+    "name": "greavard",
+    "set": "sv",
+    "set_num": 105,
+    "rarity": "common",
+    "illustrator": "shin nagasawa",
+    "img_path": "/sv/105.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 3
+  },
+  {
+    "name": "houndstone",
+    "set": "sv",
+    "set_num": 106,
+    "rarity": "rare",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/106.jpg",
+    "stage": "stageone",
+    "hp": 140,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 3,
+    "prev_evo": "greavard"
+  },
+  {
+    "name": "mankey",
+    "set": "sv",
+    "set_num": 107,
+    "rarity": "common",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/107.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "primeape",
+    "set": "sv",
+    "set_num": 108,
+    "rarity": "common",
+    "illustrator": "ryuta fuse",
+    "img_path": "/sv/108.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "mankey"
+  },
+  {
+    "name": "annihilape",
+    "set": "sv",
+    "set_num": 109,
+    "rarity": "rare",
+    "illustrator": "anesaki dynamic",
+    "img_path": "/sv/109.jpg",
+    "stage": "stagetwo",
+    "hp": 140,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "primeape"
+  },
+  {
+    "name": "meditite",
+    "set": "sv",
+    "set_num": 110,
+    "rarity": "common",
+    "illustrator": "miki kudo",
+    "img_path": "/sv/110.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "medicham",
+    "set": "sv",
+    "set_num": 111,
+    "rarity": "uncommon",
+    "illustrator": "jerkey",
+    "img_path": "/sv/111.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "meditite"
+  },
+  {
+    "name": "riolu",
+    "set": "sv",
+    "set_num": 112,
+    "rarity": "common",
+    "illustrator": "naoyo kimura",
+    "img_path": "/sv/112.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "riolu",
+    "set": "sv",
+    "set_num": 113,
+    "rarity": "common",
+    "illustrator": "chibi",
+    "img_path": "/sv/113.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "lucario",
+    "set": "sv",
+    "set_num": 114,
+    "rarity": "uncommon",
+    "illustrator": "nurikabe",
+    "img_path": "/sv/114.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "riolu"
+  },
+  {
+    "name": "sandile",
+    "set": "sv",
+    "set_num": 115,
+    "rarity": "common",
+    "illustrator": "tomokazu komiya",
+    "img_path": "/sv/115.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "krokorok",
+    "set": "sv",
+    "set_num": 116,
+    "rarity": "common",
+    "illustrator": "kantaro",
+    "img_path": "/sv/116.jpg",
+    "stage": "stageone",
+    "hp": 100,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "sandile"
+  },
+  {
+    "name": "krookodile",
+    "set": "sv",
+    "set_num": 117,
+    "rarity": "uncommon",
+    "illustrator": "misa tsutsui",
+    "img_path": "/sv/117.jpg",
+    "stage": "stagetwo",
+    "hp": 170,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "krokorok"
+  },
+  {
+    "name": "hawlucha",
+    "set": "sv",
+    "set_num": 118,
+    "rarity": "rare",
+    "illustrator": "gossan",
+    "img_path": "/sv/118.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "silicobra",
+    "set": "sv",
+    "set_num": 119,
+    "rarity": "common",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/119.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "sandaconda",
+    "set": "sv",
+    "set_num": 120,
+    "rarity": "uncommon",
+    "illustrator": "yuya oka",
+    "img_path": "/sv/120.jpg",
+    "stage": "stageone",
+    "hp": 140,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "silicobra"
+  },
+  {
+    "name": "stonjourner",
+    "set": "sv",
+    "set_num": 121,
+    "rarity": "uncommon",
+    "illustrator": "yuka marii",
+    "img_path": "/sv/121.jpg",
+    "stage": "basic",
+    "hp": 130,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "klawf",
+    "set": "sv",
+    "set_num": 122,
+    "rarity": "rare",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/122.jpg",
+    "stage": "basic",
+    "hp": 130,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3
+  },
+  {
+    "name": "great tusk",
+    "set": "sv",
+    "set_num": 123,
+    "rarity": "double-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/123.jpg",
+    "stage": "basic",
+    "hp": 250,
+    "type": "fighting",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 4
+  },
+  {
+    "name": "koraidon",
+    "set": "sv",
+    "set_num": 124,
+    "rarity": "rare",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/124.jpg",
+    "stage": "basic",
+    "hp": 130,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "koraidon",
+    "set": "sv",
+    "set_num": 125,
+    "rarity": "double-rare",
+    "illustrator": "aky cg works",
+    "img_path": "/sv/125.jpg",
+    "stage": "basic",
+    "hp": 230,
+    "type": "fighting",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "grimer",
+    "set": "sv",
+    "set_num": 126,
+    "rarity": "common",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/126.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 3
+  },
+  {
+    "name": "muk",
+    "set": "sv",
+    "set_num": 127,
+    "rarity": "uncommon",
+    "illustrator": "karu akasaka",
+    "img_path": "/sv/127.jpg",
+    "stage": "stageone",
+    "hp": 140,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 4,
+    "prev_evo": "grimer"
+  },
+  {
+    "name": "seviper",
+    "set": "sv",
+    "set_num": 128,
+    "rarity": "common",
+    "illustrator": "sui",
+    "img_path": "/sv/128.jpg",
+    "stage": "basic",
+    "hp": 120,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "spiritomb",
+    "set": "sv",
+    "set_num": 129,
+    "rarity": "uncommon",
+    "illustrator": "naoyo kimura",
+    "img_path": "/sv/129.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "croagunk",
+    "set": "sv",
+    "set_num": 130,
+    "rarity": "common",
+    "illustrator": "shiburingaru",
+    "img_path": "/sv/130.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "toxicroak",
+    "set": "sv",
+    "set_num": 131,
+    "rarity": "double-rare",
+    "illustrator": "nisota niso",
+    "img_path": "/sv/131.jpg",
+    "stage": "stageone",
+    "hp": 250,
+    "type": "darkness",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "croagunk"
+  },
+  {
+    "name": "pawniard",
+    "set": "sv",
+    "set_num": 132,
+    "rarity": "common",
+    "illustrator": "sowsow",
+    "img_path": "/sv/132.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "bisharp",
+    "set": "sv",
+    "set_num": 133,
+    "rarity": "common",
+    "illustrator": "hideki ishikawa",
+    "img_path": "/sv/133.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "pawniard"
+  },
+  {
+    "name": "kingambit",
+    "set": "sv",
+    "set_num": 134,
+    "rarity": "rare",
+    "illustrator": "anesaki dynamic",
+    "img_path": "/sv/134.jpg",
+    "stage": "stagetwo",
+    "hp": 170,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "bisharp"
+  },
+  {
+    "name": "maschiff",
+    "set": "sv",
+    "set_num": 135,
+    "rarity": "common",
+    "illustrator": "kantaro",
+    "img_path": "/sv/135.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "maschiff",
+    "set": "sv",
+    "set_num": 136,
+    "rarity": "common",
+    "illustrator": "keiichiro ito",
+    "img_path": "/sv/136.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3
+  },
+  {
+    "name": "mabosstiff",
+    "set": "sv",
+    "set_num": 137,
+    "rarity": "uncommon",
+    "illustrator": "kiyotaka oshiyama",
+    "img_path": "/sv/137.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "maschiff"
+  },
+  {
+    "name": "bombirdier",
+    "set": "sv",
+    "set_num": 138,
+    "rarity": "uncommon",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/138.jpg",
+    "stage": "basic",
+    "hp": 110,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "forretress",
+    "set": "sv",
+    "set_num": 139,
+    "rarity": "uncommon",
+    "illustrator": "lee hyunjung",
+    "img_path": "/sv/139.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "metal",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "metal",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "grass",
+    "retreat": 3,
+    "prev_evo": "pineco"
+  },
+  {
+    "name": "varoom",
+    "set": "sv",
+    "set_num": 140,
+    "rarity": "common",
+    "illustrator": "shin nagasawa",
+    "img_path": "/sv/140.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "metal",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "grass",
+    "retreat": 1
+  },
+  {
+    "name": "varoom",
+    "set": "sv",
+    "set_num": 141,
+    "rarity": "common",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/141.jpg",
+    "stage": "basic",
+    "hp": 80,
+    "type": "metal",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "metal"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "grass",
+    "retreat": 2
+  },
+  {
+    "name": "revavroom",
+    "set": "sv",
+    "set_num": 142,
+    "rarity": "rare",
+    "illustrator": "anesaki dynamic",
+    "img_path": "/sv/142.jpg",
+    "stage": "stageone",
+    "hp": 140,
+    "type": "metal",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "metal"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "grass",
+    "retreat": 2,
+    "prev_evo": "varoom"
+  },
+  {
+    "name": "iron treads",
+    "set": "sv",
+    "set_num": 143,
+    "rarity": "double-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/143.jpg",
+    "stage": "basic",
+    "hp": 220,
+    "type": "metal",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "metal"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "grass",
+    "retreat": 3
+  },
+  {
+    "name": "chansey",
+    "set": "sv",
+    "set_num": 144,
+    "rarity": "common",
+    "illustrator": "sui",
+    "img_path": "/sv/144.jpg",
+    "stage": "basic",
+    "hp": 110,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "blissey",
+    "set": "sv",
+    "set_num": 145,
+    "rarity": "uncommon",
+    "illustrator": "chibi",
+    "img_path": "/sv/145.jpg",
+    "stage": "stageone",
+    "hp": 150,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "chansey"
+  },
+  {
+    "name": "zangoose",
+    "set": "sv",
+    "set_num": 146,
+    "rarity": "common",
+    "illustrator": "yuya oka",
+    "img_path": "/sv/146.jpg",
+    "stage": "basic",
+    "hp": 90,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "zangoose",
+    "set": "sv",
+    "set_num": 147,
+    "rarity": "uncommon",
+    "illustrator": "aoki",
+    "img_path": "/sv/147.jpg",
+    "stage": "basic",
+    "hp": 110,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "starly",
+    "set": "sv",
+    "set_num": 148,
+    "rarity": "common",
+    "illustrator": "yuka morii",
+    "img_path": "/sv/148.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "staravia",
+    "set": "sv",
+    "set_num": 149,
+    "rarity": "common",
+    "illustrator": "kantaro",
+    "img_path": "/sv/149.jpg",
+    "stage": "stageone",
+    "hp": 80,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1,
+    "prev_evo": "starly"
+  },
+  {
+    "name": "staraptor",
+    "set": "sv",
+    "set_num": 150,
+    "rarity": "uncommon",
+    "illustrator": "atsushi furusawa",
+    "img_path": "/sv/150.jpg",
+    "stage": "stagetwo",
+    "hp": 150,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1,
+    "prev_evo": "staravia"
+  },
+  {
+    "name": "skwovet",
+    "set": "sv",
+    "set_num": 151,
+    "rarity": "common",
+    "illustrator": "hyogonosuke",
+    "img_path": "/sv/151.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "greedent",
+    "set": "sv",
+    "set_num": 152,
+    "rarity": "uncommon",
+    "illustrator": "kantaro",
+    "img_path": "/sv/152.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "skwovet"
+  },
+  {
+    "name": "indeedee",
+    "set": "sv",
+    "set_num": 153,
+    "rarity": "rare",
+    "illustrator": "kagemaru himeno",
+    "img_path": "/sv/153.jpg",
+    "stage": "basic",
+    "hp": 90,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "lechonk",
+    "set": "sv",
+    "set_num": 154,
+    "rarity": "common",
+    "illustrator": "teeziro",
+    "img_path": "/sv/154.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "lechonk",
+    "set": "sv",
+    "set_num": 155,
+    "rarity": "common",
+    "illustrator": "kodama",
+    "img_path": "/sv/155.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "lechonk",
+    "set": "sv",
+    "set_num": 156,
+    "rarity": "common",
+    "illustrator": "mina nakai",
+    "img_path": "/sv/156.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "oinkologne",
+    "set": "sv",
+    "set_num": 157,
+    "rarity": "uncommon",
+    "illustrator": "kirisaki",
+    "img_path": "/sv/157.jpg",
+    "stage": "stageone",
+    "hp": 120,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "lechonk"
+  },
+  {
+    "name": "oinkologne",
+    "set": "sv",
+    "set_num": 158,
+    "rarity": "double-rare",
+    "illustrator": "aky cg works",
+    "img_path": "/sv/157.jpg",
+    "stage": "stageone",
+    "hp": 260,
+    "type": "colorless",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "lechonk"
+  },
+  {
+    "name": "tandemaus",
+    "set": "sv",
+    "set_num": 159,
+    "rarity": "common",
+    "illustrator": "pani kobayashi",
+    "img_path": "/sv/159.jpg",
+    "stage": "basic",
+    "hp": 30,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "tandemaus",
+    "set": "sv",
+    "set_num": 160,
+    "rarity": "common",
+    "illustrator": "yuu",
+    "img_path": "/sv/160.jpg",
+    "stage": "basic",
+    "hp": 40,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "maushold",
+    "set": "sv",
+    "set_num": 161,
+    "rarity": "uncommon",
+    "illustrator": "kiyotaka oshiyama",
+    "img_path": "/sv/161.jpg",
+    "stage": "stageone",
+    "hp": 70,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "tandemaus"
+  },
+  {
+    "name": "squawkabilly",
+    "set": "sv",
+    "set_num": 162,
+    "rarity": "common",
+    "illustrator": "oswaldo kato",
+    "img_path": "/sv/162.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "cyclizar",
+    "set": "sv",
+    "set_num": 163,
+    "rarity": "uncommon",
+    "illustrator": "akira egawa",
+    "img_path": "/sv/163.jpg",
+    "stage": "basic",
+    "hp": 110,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "cyclizar",
+    "set": "sv",
+    "set_num": 164,
+    "rarity": "rare",
+    "illustrator": "ryota murayama",
+    "img_path": "/sv/164.jpg",
+    "stage": "basic",
+    "hp": 110,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 0
+  },
+  {
+    "name": "flamigo",
+    "set": "sv",
+    "set_num": 165,
+    "rarity": "uncommon",
+    "illustrator": "kantaro",
+    "img_path": "/sv/165.jpg",
+    "stage": "basic",
+    "hp": 110,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "arven",
+    "set": "sv",
+    "set_num": 166,
+    "rarity": "uncommon",
+    "illustrator": "gidora",
+    "img_path": "/sv/166.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "beach court",
+    "set": "sv",
+    "set_num": 167,
+    "rarity": "uncommon",
+    "illustrator": "oswaldo kato",
+    "img_path": "/sv/167.jpg",
+    "trainer_subtype": "stadium"
+  },
+  {
+    "name": "crushing hammer",
+    "set": "sv",
+    "set_num": 168,
+    "rarity": "common",
+    "illustrator": "ayaka yoshida",
+    "img_path": "/sv/168.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "defiance band",
+    "set": "sv",
+    "set_num": 169,
+    "rarity": "uncommon",
+    "illustrator": "inose yukie",
+    "img_path": "/sv/169.jpg",
+    "trainer_subtype": "tool"
+  },
+  {
+    "name": "electric generator",
+    "set": "sv",
+    "set_num": 170,
+    "rarity": "uncommon",
+    "illustrator": "toyste beach",
+    "img_path": "/sv/170.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "energy retrieval",
+    "set": "sv",
+    "set_num": 171,
+    "rarity": "common",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/171.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "energy search",
+    "set": "sv",
+    "set_num": 172,
+    "rarity": "common",
+    "illustrator": "toyste beach",
+    "img_path": "/sv/172.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "energy switch",
+    "set": "sv",
+    "set_num": 173,
+    "rarity": "common",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/173.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "exp. share",
+    "set": "sv",
+    "set_num": 174,
+    "rarity": "uncommon",
+    "illustrator": "toyste beach",
+    "img_path": "/sv/174.jpg",
+    "trainer_subtype": "tool"
+  },
+  {
+    "name": "jacq",
+    "set": "sv",
+    "set_num": 175,
+    "rarity": "uncommon",
+    "illustrator": "gidora",
+    "img_path": "/sv/175.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "judge",
+    "set": "sv",
+    "set_num": 176,
+    "rarity": "uncommon",
+    "illustrator": "hideki ishikawa",
+    "img_path": "/sv/176.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "katy",
+    "set": "sv",
+    "set_num": 177,
+    "rarity": "uncommon",
+    "illustrator": "akira komayama",
+    "img_path": "/sv/177.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "mesagoza",
+    "set": "sv",
+    "set_num": 178,
+    "rarity": "uncommon",
+    "illustrator": "oswaldo kato",
+    "img_path": "/sv/178.jpg",
+    "trainer_subtype": "stadium"
+  },
+  {
+    "name": "miriam",
+    "set": "sv",
+    "set_num": 179,
+    "rarity": "uncommon",
+    "illustrator": "sanosuke sakuma",
+    "img_path": "/sv/179.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "nemona",
+    "set": "sv",
+    "set_num": 180,
+    "rarity": "common",
+    "illustrator": "sanosuke sakuma",
+    "img_path": "/sv/180.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "nest ball",
+    "set": "sv",
+    "set_num": 181,
+    "rarity": "uncommon",
+    "illustrator": "toyste beach",
+    "img_path": "/sv/181.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "pal pad",
+    "set": "sv",
+    "set_num": 182,
+    "rarity": "common",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/182.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "penny",
+    "set": "sv",
+    "set_num": 183,
+    "rarity": "uncommon",
+    "illustrator": "yuu",
+    "img_path": "/sv/183.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "picnic basket",
+    "set": "sv",
+    "set_num": 184,
+    "rarity": "uncommon",
+    "illustrator": "okacheke",
+    "img_path": "/sv/184.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "poke ball",
+    "set": "sv",
+    "set_num": 185,
+    "rarity": "common",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/185.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "pokegear 3.0",
+    "set": "sv",
+    "set_num": 186,
+    "rarity": "common",
+    "illustrator": "toyste beach",
+    "img_path": "/sv/186.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "pokemon catcher",
+    "set": "sv",
+    "set_num": 187,
+    "rarity": "common",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/187.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "potion",
+    "set": "sv",
+    "set_num": 188,
+    "rarity": "common",
+    "illustrator": "ayaka yoshida",
+    "img_path": "/sv/188.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "professor's research",
+    "set": "sv",
+    "set_num": 189,
+    "rarity": "rare",
+    "illustrator": "kirisaki",
+    "img_path": "/sv/189.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "professor's research",
+    "set": "sv",
+    "set_num": 190,
+    "rarity": "rare",
+    "illustrator": "kirisaki",
+    "img_path": "/sv/190.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "rare candy",
+    "set": "sv",
+    "set_num": 191,
+    "rarity": "common",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/191.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "rock chestplate",
+    "set": "sv",
+    "set_num": 192,
+    "rarity": "uncommon",
+    "illustrator": "toyste beach",
+    "img_path": "/sv/192.jpg",
+    "trainer_subtype": "tool"
+  },
+  {
+    "name": "rocky helmet",
+    "set": "sv",
+    "set_num": 193,
+    "rarity": "uncommon",
+    "illustrator": "ayaka yoshida",
+    "img_path": "/sv/193.jpg",
+    "trainer_subtype": "tool"
+  },
+  {
+    "name": "switch",
+    "set": "sv",
+    "set_num": 194,
+    "rarity": "common",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/194.jpg",
+    "trainer_subtype": "tool"
+  },
+  {
+    "name": "team star grunt",
+    "set": "sv",
+    "set_num": 195,
+    "rarity": "uncommon",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/195.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "ultra ball",
+    "set": "sv",
+    "set_num": 196,
+    "rarity": "uncommon",
+    "illustrator": "ayaka yoshida",
+    "img_path": "/sv/196.jpg",
+    "trainer_subtype": "item"
+  },
+  {
+    "name": "vitality band",
+    "set": "sv",
+    "set_num": 197,
+    "rarity": "uncommon",
+    "illustrator": "studio bora inc.",
+    "img_path": "/sv/197.jpg",
+    "trainer_subtype": "tool"
+  },
+  {
+    "name": "youngster",
+    "set": "sv",
+    "set_num": 198,
+    "rarity": "uncommon",
+    "illustrator": "hitoshi ariga",
+    "img_path": "/sv/198.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "tarountula",
+    "set": "sv",
+    "set_num": 199,
+    "rarity": "a-rare",
+    "illustrator": "miki tanaka",
+    "img_path": "/sv/199.jpg",
+    "stage": "basic",
+    "hp": 40,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "dolliv",
+    "set": "sv",
+    "set_num": 200,
+    "rarity": "a-rare",
+    "illustrator": "oswaldo kato",
+    "img_path": "/sv/200.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "smoliv"
+  },
+  {
+    "name": "toedscool",
+    "set": "sv",
+    "set_num": 201,
+    "rarity": "a-rare",
+    "illustrator": "akira komayama",
+    "img_path": "/sv/201.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "scovillain",
+    "set": "sv",
+    "set_num": 202,
+    "rarity": "a-rare",
+    "illustrator": "kiyotaka oshiyama",
+    "img_path": "/sv/202.jpg",
+    "stage": "stageone",
+    "hp": 110,
+    "type": "grass",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 1,
+    "prev_evo": "capsakid"
+  },
+  {
+    "name": "armarouge",
+    "set": "sv",
+    "set_num": 203,
+    "rarity": "a-rare",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/203.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "fire",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "fire"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "charcadet"
+  },
+  {
+    "name": "slowpoke",
+    "set": "sv",
+    "set_num": 204,
+    "rarity": "a-rare",
+    "illustrator": "toshinao aoki",
+    "img_path": "/sv/204.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "clauncher",
+    "set": "sv",
+    "set_num": 205,
+    "rarity": "a-rare",
+    "illustrator": "shinya komatsu",
+    "img_path": "/sv/205.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "wiglett",
+    "set": "sv",
+    "set_num": 206,
+    "rarity": "a-rare",
+    "illustrator": "you iribi",
+    "img_path": "/sv/206.jpg",
+    "stage": "basic",
+    "hp": 50,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "dondozo",
+    "set": "sv",
+    "set_num": 207,
+    "rarity": "a-rare",
+    "illustrator": "akira egawa",
+    "img_path": "/sv/207.jpg",
+    "stage": "basic",
+    "hp": 160,
+    "type": "water",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 4
+  },
+  {
+    "name": "pachirisu",
+    "set": "sv",
+    "set_num": 208,
+    "rarity": "a-rare",
+    "illustrator": "zig",
+    "img_path": "/sv/208.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "pawmot",
+    "set": "sv",
+    "set_num": 209,
+    "rarity": "a-rare",
+    "illustrator": "kouki saitou",
+    "img_path": "/sv/209.jpg",
+    "stage": "stagetwo",
+    "hp": 130,
+    "type": "lightning",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 0,
+    "prev_evo": "pawmo"
+  },
+  {
+    "name": "drowzee",
+    "set": "sv",
+    "set_num": 210,
+    "rarity": "a-rare",
+    "illustrator": "tomokazu komyama",
+    "img_path": "/sv/210.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "ralts",
+    "set": "sv",
+    "set_num": 211,
+    "rarity": "a-rare",
+    "illustrator": "jiro sasumo",
+    "img_path": "/sv/211.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "kirlia",
+    "set": "sv",
+    "set_num": 212,
+    "rarity": "a-rare",
+    "illustrator": "jiro sasumo",
+    "img_path": "/sv/212.jpg",
+    "stage": "stageone",
+    "hp": 90,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 1,
+    "prev_evo": "ralts"
+  },
+  {
+    "name": "fidough",
+    "set": "sv",
+    "set_num": 213,
+    "rarity": "a-rare",
+    "illustrator": "tika matsuno",
+    "img_path": "/sv/213.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "metal",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "greavard",
+    "set": "sv",
+    "set_num": 214,
+    "rarity": "a-rare",
+    "illustrator": "sowsow",
+    "img_path": "/sv/214.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "psychic",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "psychic"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2
+  },
+  {
+    "name": "riolu",
+    "set": "sv",
+    "set_num": 215,
+    "rarity": "a-rare",
+    "illustrator": "nelnal",
+    "img_path": "/sv/215.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "sandile",
+    "set": "sv",
+    "set_num": 216,
+    "rarity": "a-rare",
+    "illustrator": "nurikabe",
+    "img_path": "/sv/216.jpg",
+    "stage": "basic",
+    "hp": 70,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "klawf",
+    "set": "sv",
+    "set_num": 217,
+    "rarity": "a-rare",
+    "illustrator": "mina nakai",
+    "img_path": "/sv/217.jpg",
+    "stage": "basic",
+    "hp": 130,
+    "type": "fighting",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3
+  },
+  {
+    "name": "mabosstiff",
+    "set": "sv",
+    "set_num": 218,
+    "rarity": "a-rare",
+    "illustrator": "okacheke",
+    "img_path": "/sv/218.jpg",
+    "stage": "stageone",
+    "hp": 130,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "maschiff"
+  },
+  {
+    "name": "bombirdier",
+    "set": "sv",
+    "set_num": 219,
+    "rarity": "a-rare",
+    "illustrator": "shibuzoh.",
+    "img_path": "/sv/219.jpg",
+    "stage": "basic",
+    "hp": 110,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "kingambit",
+    "set": "sv",
+    "set_num": 220,
+    "rarity": "a-rare",
+    "illustrator": "shin nagasawa",
+    "img_path": "/sv/220.jpg",
+    "stage": "stagetwo",
+    "hp": 170,
+    "type": "darkness",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "grass",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "bisharp"
+  },
+  {
+    "name": "starly",
+    "set": "sv",
+    "set_num": 221,
+    "rarity": "a-rare",
+    "illustrator": "saino misaki",
+    "img_path": "/sv/221.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "fighting",
+    "retreat": 1
+  },
+  {
+    "name": "skwovet",
+    "set": "sv",
+    "set_num": 222,
+    "rarity": "a-rare",
+    "illustrator": "teeziro",
+    "img_path": "/sv/222.jpg",
+    "stage": "basic",
+    "hp": 60,
+    "type": "colorless",
+    "ex": false,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "spidops",
+    "set": "sv",
+    "set_num": 223,
+    "rarity": "ultra-rare",
+    "illustrator": "takuyoa",
+    "img_path": "/sv/223.jpg",
+    "stage": "stageone",
+    "hp": 260,
+    "type": "grass",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "colorless",
+      "grass"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "tarountula"
+  },
+  {
+    "name": "arcanine",
+    "set": "sv",
+    "set_num": 224,
+    "rarity": "ultra-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/224.jpg",
+    "stage": "stageone",
+    "hp": 280,
+    "type": "fire",
+    "ex": true,
+    "tera": true,
+    "move_costs": [
+      "fire"
+    ],
+    "weakness_type": "water",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "growlithe"
+  },
+  {
+    "name": "gyarados",
+    "set": "sv",
+    "set_num": 225,
+    "rarity": "ultra-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/225.jpg",
+    "stage": "stageone",
+    "hp": 300,
+    "type": "water",
+    "ex": true,
+    "tera": true,
+    "move_costs": [
+      "water",
+      "colorless"
+    ],
+    "weakness_type": "lightning",
+    "resistance_type": "",
+    "retreat": 4,
+    "prev_evo": "magikarp"
+  },
+  {
+    "name": "magnezone",
+    "set": "sv",
+    "set_num": 226,
+    "rarity": "ultra-rare",
+    "illustrator": "planeta tsuji",
+    "img_path": "/sv/226.jpg",
+    "stage": "stagetwo",
+    "hp": 330,
+    "type": "lightning",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 3,
+    "prev_evo": "magneton"
+  },
+  {
+    "name": "miraidon",
+    "set": "sv",
+    "set_num": 227,
+    "rarity": "ultra-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/227.jpg",
+    "stage": "basic",
+    "hp": 220,
+    "type": "lightning",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "gardevoir",
+    "set": "sv",
+    "set_num": 228,
+    "rarity": "ultra-rare",
+    "illustrator": "n design inc.",
+    "img_path": "/sv/228.jpg",
+    "stage": "stagetwo",
+    "hp": 310,
+    "type": "psychic",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2,
+    "prev_evo": "kirlia"
+  },
+  {
+    "name": "banette",
+    "set": "sv",
+    "set_num": 229,
+    "rarity": "ultra-rare",
+    "illustrator": "planeta mochizuki",
+    "img_path": "/sv/229.jpg",
+    "stage": "stageone",
+    "hp": 250,
+    "type": "psychic",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2,
+    "prev_evo": "banette"
+  },
+  {
+    "name": "great tusk",
+    "set": "sv",
+    "set_num": 230,
+    "rarity": "ultra-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/230.jpg",
+    "stage": "basic",
+    "hp": 250,
+    "type": "fighting",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 4
+  },
+  {
+    "name": "koraidon",
+    "set": "sv",
+    "set_num": 231,
+    "rarity": "ultra-rare",
+    "illustrator": "aky cg works",
+    "img_path": "/sv/231.jpg",
+    "stage": "basic",
+    "hp": 230,
+    "type": "fighting",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "toxicroak",
+    "set": "sv",
+    "set_num": 232,
+    "rarity": "ultra-rare",
+    "illustrator": "planeta hiiragi",
+    "img_path": "/sv/232.jpg",
+    "stage": "stageone",
+    "hp": 250,
+    "type": "darkness",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "darkness",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "crogunk"
+  },
+  {
+    "name": "iron treads",
+    "set": "sv",
+    "set_num": 233,
+    "rarity": "ultra-rare",
+    "illustrator": "5ban graphics",
+    "img_path": "/sv/233.jpg",
+    "stage": "basic",
+    "hp": 220,
+    "type": "metal",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "metal",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "grass",
+    "retreat": 3
+  },
+  {
+    "name": "oinkologne",
+    "set": "sv",
+    "set_num": 234,
+    "rarity": "ultra-rare",
+    "illustrator": "aky cg works",
+    "img_path": "/sv/234.jpg",
+    "stage": "stageone",
+    "hp": 260,
+    "type": "colorless",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "lechonk"
+  },
+  {
+    "name": "arven",
+    "set": "sv",
+    "set_num": 235,
+    "rarity": "ultra-rare",
+    "illustrator": "gidora",
+    "img_path": "/sv/235.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "jacq",
+    "set": "sv",
+    "set_num": 236,
+    "rarity": "ultra-rare",
+    "illustrator": "gidora",
+    "img_path": "/sv/236.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "katy",
+    "set": "sv",
+    "set_num": 237,
+    "rarity": "ultra-rare",
+    "illustrator": "akira komayama",
+    "img_path": "/sv/237.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "miriam",
+    "set": "sv",
+    "set_num": 238,
+    "rarity": "ultra-rare",
+    "illustrator": "sanosuke sakuma",
+    "img_path": "/sv/238.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "penny",
+    "set": "sv",
+    "set_num": 239,
+    "rarity": "ultra-rare",
+    "illustrator": "yuu",
+    "img_path": "/sv/239.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "professor's research",
+    "set": "sv",
+    "set_num": 240,
+    "rarity": "ultra-rare",
+    "illustrator": "kirisaki",
+    "img_path": "/sv/240.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "professor's research",
+    "set": "sv",
+    "set_num": 241,
+    "rarity": "ultra-rare",
+    "illustrator": "kirisaki",
+    "img_path": "/sv/241.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "team star grunt",
+    "set": "sv",
+    "set_num": 242,
+    "rarity": "ultra-rare",
+    "illustrator": "nagimiso",
+    "img_path": "/sv/242.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "spidops",
+    "set": "sv",
+    "set_num": 243,
+    "rarity": "sa-rare",
+    "illustrator": "miki tanaka",
+    "img_path": "/sv/243.jpg",
+    "stage": "stageone",
+    "hp": 260,
+    "type": "grass",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "grass",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "",
+    "retreat": 2,
+    "prev_evo": "tarountula"
+  },
+  {
+    "name": "miraidon",
+    "set": "sv",
+    "set_num": 244,
+    "rarity": "sa-rare",
+    "illustrator": "kantaro",
+    "img_path": "/sv/244.jpg",
+    "stage": "basic",
+    "hp": 220,
+    "type": "lightning",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "lightning",
+      "colorless"
+    ],
+    "weakness_type": "fighting",
+    "resistance_type": "",
+    "retreat": 1
+  },
+  {
+    "name": "gardevoir",
+    "set": "sv",
+    "set_num": 245,
+    "rarity": "sa-rare",
+    "illustrator": "jiro sasumo",
+    "img_path": "/sv/245.jpg",
+    "stage": "stagetwo",
+    "hp": 310,
+    "type": "psychic",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "psychic",
+      "colorless"
+    ],
+    "weakness_type": "darkness",
+    "resistance_type": "fighting",
+    "retreat": 2,
+    "prev_evo": "kirlia"
+  },
+  {
+    "name": "great tusk",
+    "set": "sv",
+    "set_num": 246,
+    "rarity": "sa-rare",
+    "illustrator": "pani kobayashi",
+    "img_path": "/sv/246.jpg",
+    "stage": "basic",
+    "hp": 250,
+    "type": "fighting",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "fighting"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 4
+  },
+  {
+    "name": "koraidon",
+    "set": "sv",
+    "set_num": 247,
+    "rarity": "sa-rare",
+    "illustrator": "ryota murayama",
+    "img_path": "/sv/247.jpg",
+    "stage": "basic",
+    "hp": 230,
+    "type": "fighting",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "fighting",
+      "colorless"
+    ],
+    "weakness_type": "psychic",
+    "resistance_type": "",
+    "retreat": 2
+  },
+  {
+    "name": "iron treads",
+    "set": "sv",
+    "set_num": 248,
+    "rarity": "sa-rare",
+    "illustrator": "keiichiro ito",
+    "img_path": "/sv/248.jpg",
+    "stage": "basic",
+    "hp": 220,
+    "type": "metal",
+    "ex": true,
+    "tera": false,
+    "move_costs": [
+      "metal",
+      "colorless"
+    ],
+    "weakness_type": "fire",
+    "resistance_type": "grass",
+    "retreat": 3
+  },
+  {
+    "name": "arven",
+    "set": "sv",
+    "set_num": 249,
+    "rarity": "sa-rare",
+    "illustrator": "kantaro",
+    "img_path": "/sv/249.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "jacq",
+    "set": "sv",
+    "set_num": 250,
+    "rarity": "sa-rare",
+    "illustrator": "oswaldo kato",
+    "img_path": "/sv/250.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "miriam",
+    "set": "sv",
+    "set_num": 251,
+    "rarity": "sa-rare",
+    "illustrator": "akira komayama",
+    "img_path": "/sv/251.jpg",
+    "trainer_subtype": "supporter"
+  },
+  {
+    "name": "penny",
+    "set": "sv",
+    "set_num": 252,
+    "rarity": "sa-rare",
+    "illustrator": "okacheke",
+    "img_path": "/sv/252.jpg",
+    "trainer_subtype": "supporter"
+  }
+]
