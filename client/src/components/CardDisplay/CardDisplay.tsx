@@ -15,13 +15,23 @@ const filterCardsByType = (selectedCardType: string) => {
   }
 };
 
-const filterCardsByPokemonType = (allowedTypes: string[]) => {
-  if (allowedTypes.length === 0) {
+const filterCardsByPokemon = (allowedTypes: string[], allowedStages: string[], ex: boolean) => {
+  if (allowedTypes.length === 0 && allowedStages.length === 0 && !ex) {
     return data;
-  } else {
-    const pokemonList = filterCardsByType('pokemon');
-    return pokemonList.filter(card => allowedTypes.includes(card.type));
   }
+
+  const pokemonList = filterCardsByType('pokemon');
+
+  const filteredPokemonList = pokemonList.filter(card => {
+
+    const isTypeAllowed = allowedTypes.length === 0 || allowedTypes.includes(card.type);
+    const isStageAllowed = allowedStages.length === 0 || allowedStages.includes(card.stage);
+
+    return ex ? (card.ex && isTypeAllowed && isStageAllowed) : (isTypeAllowed && isStageAllowed);
+
+  });
+
+  return filteredPokemonList;
 }
 
 const mapCardsToPCard = (cardData: any[]) => {
@@ -37,27 +47,34 @@ const mapCardsToPCard = (cardData: any[]) => {
 
 const CardDisplay: React.FC<CardDisplayProps> = () => {
   const [cardDisplay, setCardDisplay] = useState(data);
-  const [selectedCardType, setSelectedCardType] = useState('all');
-  const [selectedPokemonTypes, setSelectedPokemonTypes] = useState<string[]>([])
+  const [cardType, setCardType] = useState('all');
+  const [pokemonTypes, setPokemonTypes] = useState<string[]>([])
+  const [pokemonStages, setPokemonStages] = useState<string[]>([])
+  const [pokemonEx, setPokemonEx] = useState<boolean>(false);
+
 
 
   useEffect(() => {
-    setCardDisplay(() => filterCardsByType(selectedCardType))
-  }, [selectedCardType])
+    setCardDisplay(() => filterCardsByType(cardType))
+  }, [cardType])
 
   useEffect(() => {
-    setCardDisplay(() => filterCardsByPokemonType(selectedPokemonTypes))
-  }, [selectedPokemonTypes])
+    setCardDisplay(() => filterCardsByPokemon(pokemonTypes, pokemonStages, pokemonEx))
+  }, [pokemonTypes, pokemonStages, pokemonEx])
 
   const cards = mapCardsToPCard(cardDisplay)
 
   return (
     <Paper className={styles.carddisplay} elevation={3}>
-      <FilterPanel 
-        selectedCardType={selectedCardType} 
-        setSelectedCardType={setSelectedCardType} 
-        selectedPokemonTypes={selectedPokemonTypes} 
-        setSelectedPokemonTypes={setSelectedPokemonTypes} 
+      <FilterPanel
+        cardType={cardType}
+        setCardType={setCardType}
+        pokemonTypes={pokemonTypes}
+        setPokemonTypes={setPokemonTypes}
+        pokemonStages={pokemonStages}
+        setPokemonStages={setPokemonStages}
+        pokemonEx={pokemonEx}
+        setPokemonEx={setPokemonEx}
       />
       <Paper className={styles.cards}>
         {cards}
