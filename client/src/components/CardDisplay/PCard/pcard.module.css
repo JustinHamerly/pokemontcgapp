@@ -1,10 +1,14 @@
 .pcard {
-  height: 400px;
-  width: 255px;
-  background-color: black;
-  margin: 1rem;
-  border-radius: 15px;
+  height: 225px;
+  width: 130px;
+  background-color: rgb(245, 222, 193);
+  margin: .5rem;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   padding: 3px;
+}
+
+.img {
+  border-radius: 5px;
 }

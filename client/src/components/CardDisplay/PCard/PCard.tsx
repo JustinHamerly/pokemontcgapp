@@ -11,12 +11,13 @@ interface PCardProps {
 
 const PCard: React.FC<PCardProps> = ({imgPath, id, desc}) => {
   return (
-    <Paper className={styles.pcard} key={id} square={false} elevation={5}>
+    <Paper className={styles.pcard} key={id} square={false} elevation={2}>
       <Image
         src={imgPath}
-        width={250}
-        height={350}
+        width={125}
+        height={175}
         alt={desc}
+        className={styles.img}
       />
     </Paper>
   )
