@@ -11,9 +11,11 @@ interface FilterPanelProps {
   pokemonStages: string[];
   setPokemonEx: Function;
   pokemonEx: boolean;
+  setPokemonTera: Function;
+  pokemonTera: boolean;
 };
 
-const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, cardType, pokemonTypes, pokemonStages, setCardType, setPokemonTypes, setPokemonStages }) => {
+const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, cardType, pokemonTypes, pokemonStages, setCardType, setPokemonTypes, setPokemonStages, pokemonTera, setPokemonTera }) => {
 
   const handleCardTypeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setCardType(event.target.value);
@@ -44,6 +46,13 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
   const handlePokemonExChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const pokemonEx = event.target.value;
     setPokemonEx((prevExState: boolean) => {
+      return !prevExState;
+    })
+  }
+
+  const handlePokemonTeraChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const pokemonTera = event.target.value;
+    setPokemonTera((prevExState: boolean) => {
       return !prevExState;
     })
   }
@@ -170,6 +179,15 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 value="ex"
                 onChange={handlePokemonExChange}
                 checked={pokemonEx}
+              />             
+            </FormControl>
+            <FormControl component="fieldset">
+              <FormControlLabel
+                control={<Switch />}
+                label="TERA"
+                value="tera"
+                onChange={handlePokemonTeraChange}
+                checked={pokemonTera}
               />             
             </FormControl>
           </>

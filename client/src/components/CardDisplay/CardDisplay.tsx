@@ -15,24 +15,23 @@ const filterCardsByType = (selectedCardType: string) => {
   }
 };
 
-const filterCardsByPokemon = (allowedTypes: string[], allowedStages: string[], ex: boolean) => {
-  if (allowedTypes.length === 0 && allowedStages.length === 0 && !ex) {
+const filterCardsByPokemon = (allowedTypes: string[], allowedStages: string[], ex: boolean, tera: boolean) => {
+  if (allowedTypes.length === 0 && allowedStages.length === 0 && !ex && !tera) {
     return data;
   }
 
   const pokemonList = filterCardsByType('pokemon');
 
   const filteredPokemonList = pokemonList.filter(card => {
-
     const isTypeAllowed = allowedTypes.length === 0 || allowedTypes.includes(card.type);
     const isStageAllowed = allowedStages.length === 0 || allowedStages.includes(card.stage);
 
-    return ex ? (card.ex && isTypeAllowed && isStageAllowed) : (isTypeAllowed && isStageAllowed);
-
+    return (!tera || card.tera) && (!ex || card.ex) && isTypeAllowed && isStageAllowed;
   });
 
   return filteredPokemonList;
-}
+};
+
 
 const mapCardsToPCard = (cardData: any[]) => {
   return cardData.map(card => (
@@ -51,7 +50,7 @@ const CardDisplay: React.FC<CardDisplayProps> = () => {
   const [pokemonTypes, setPokemonTypes] = useState<string[]>([])
   const [pokemonStages, setPokemonStages] = useState<string[]>([])
   const [pokemonEx, setPokemonEx] = useState<boolean>(false);
-
+  const [pokemonTera, setPokemonTera] = useState<boolean>(false);
 
 
   useEffect(() => {
@@ -59,8 +58,8 @@ const CardDisplay: React.FC<CardDisplayProps> = () => {
   }, [cardType])
 
   useEffect(() => {
-    setCardDisplay(() => filterCardsByPokemon(pokemonTypes, pokemonStages, pokemonEx))
-  }, [pokemonTypes, pokemonStages, pokemonEx])
+    setCardDisplay(() => filterCardsByPokemon(pokemonTypes, pokemonStages, pokemonEx, pokemonTera))
+  }, [pokemonTypes, pokemonStages, pokemonEx, pokemonTera])
 
   const cards = mapCardsToPCard(cardDisplay)
 
@@ -75,6 +74,8 @@ const CardDisplay: React.FC<CardDisplayProps> = () => {
         setPokemonStages={setPokemonStages}
         pokemonEx={pokemonEx}
         setPokemonEx={setPokemonEx}
+        pokemonTera={pokemonTera}
+        setPokemonTera={setPokemonTera}
       />
       <Paper className={styles.cards}>
         {cards}
