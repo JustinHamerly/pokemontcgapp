@@ -18,8 +18,8 @@ const filterCardsByGenerics = (selectedCardType: string, rarity: string[]) => {
   });
 };
 
-const filterCardsByPokemon = (list: card[], allowedTypes: string[], allowedStages: string[], ex: boolean, tera: boolean, rarity: string[]) => {
-  if (allowedTypes.length === 0 && allowedStages.length === 0 && !ex && !tera) {
+const filterCardsByPokemon = (list: card[], allowedTypes: string[], allowedStages: string[], ex: boolean, tera: boolean, rarity: string[], hasAbility: boolean) => {
+  if (allowedTypes.length === 0 && allowedStages.length === 0 && !ex && !tera && !hasAbility) {
     return list;
   }
 
@@ -27,7 +27,7 @@ const filterCardsByPokemon = (list: card[], allowedTypes: string[], allowedStage
     const isTypeAllowed = allowedTypes.length === 0 || allowedTypes.includes(card.type as string);
     const isStageAllowed = allowedStages.length === 0 || allowedStages.includes(card.stage as string);
 
-    return (!tera || card.tera) && (!ex || card.ex) && isTypeAllowed && isStageAllowed;
+    return (!tera || card.tera) && (!ex || card.ex) && (!hasAbility || card.ability) && isTypeAllowed && isStageAllowed;
   });
 
   return filteredPokemonList;
@@ -53,12 +53,13 @@ const CardDisplay: React.FC<CardDisplayProps> = () => {
   const [pokemonStages, setPokemonStages] = useState<string[]>([])
   const [pokemonEx, setPokemonEx] = useState<boolean>(false);
   const [pokemonTera, setPokemonTera] = useState<boolean>(false);
+  const [hasAbility, setHasAbility] = useState<boolean>(false);
 
   useEffect(() => {
     const filterGenerics = filterCardsByGenerics(cardType, rarity);
-    const filteredPokemon = filterCardsByPokemon(filterGenerics, pokemonTypes, pokemonStages, pokemonEx, pokemonTera, rarity)
+    const filteredPokemon = filterCardsByPokemon(filterGenerics, pokemonTypes, pokemonStages, pokemonEx, pokemonTera, rarity, hasAbility)
     setCardDisplay(filteredPokemon)
-  }, [cardType, rarity, pokemonTypes, pokemonStages, pokemonEx, pokemonTera])
+  }, [cardType, rarity, pokemonTypes, pokemonStages, pokemonEx, pokemonTera, hasAbility])
 
   const cards = mapCardsToPCard(cardDisplay)
 
@@ -77,6 +78,8 @@ const CardDisplay: React.FC<CardDisplayProps> = () => {
         setPokemonTera={setPokemonTera}
         rarity={rarity}
         setRarity={setRarity}
+        hasAbility={hasAbility}
+        setHasAbility={setHasAbility}
       />
       <Paper className={styles.cards}>
         {cards}

@@ -15,10 +15,12 @@ interface FilterPanelProps {
   pokemonTera: boolean;
   setRarity: Function;
   rarity: string[];
+  setHasAbility: Function;
+  hasAbility: boolean;
 
 };
 
-const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, cardType, pokemonTypes, pokemonStages, setCardType, setPokemonTypes, setPokemonStages, pokemonTera, setPokemonTera, rarity, setRarity }) => {
+const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, cardType, pokemonTypes, pokemonStages, setCardType, setPokemonTypes, setPokemonStages, pokemonTera, setPokemonTera, rarity, setRarity, setHasAbility, hasAbility }) => {
 
   const handleCardTypeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const cardType = event.target.value;
@@ -29,12 +31,14 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
       setPokemonEx(false);
       setPokemonStages([]);
       setPokemonTypes([]);
+      setHasAbility(false);
     }else if(cardType === 'energy'){
       setRarity([]);
       setPokemonStages([]);
       setPokemonTypes([]);
       setPokemonTera(false);
       setPokemonEx(false); 
+      setHasAbility(false);
     }
     setCardType(cardType);
   };
@@ -62,16 +66,20 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
   };
 
   const handlePokemonExChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const pokemonEx = event.target.value;
     setPokemonEx((prevExState: boolean) => {
       return !prevExState;
     })
   }
 
   const handlePokemonTeraChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const pokemonTera = event.target.value;
     setPokemonTera((prevExState: boolean) => {
       return !prevExState;
+    })
+  }
+
+  const handleHasAbilityChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setHasAbility((prevAbilityState: boolean) => {
+      return !prevAbilityState;
     })
   }
 
@@ -263,6 +271,15 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 value="tera"
                 onChange={handlePokemonTeraChange}
                 checked={pokemonTera}
+              />
+            </FormControl>
+            <FormControl component="fieldset">
+              <FormControlLabel
+                control={<Switch />}
+                label="ABILITY"
+                value="ability"
+                onChange={handleHasAbilityChange}
+                checked={hasAbility}
               />
             </FormControl>
           </>

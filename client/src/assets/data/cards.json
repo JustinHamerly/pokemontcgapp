@@ -17,7 +17,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "heracross",
@@ -38,7 +39,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "shroomish",
@@ -58,7 +60,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "breloom",
@@ -79,7 +82,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "shroomish",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "cacnea",
@@ -99,7 +103,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "cacturne",
@@ -120,7 +125,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "cacnea",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "tropius",
@@ -141,7 +147,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "scatterbug",
@@ -162,7 +169,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "spewpa",
@@ -184,7 +192,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "scatterbug",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "vivillon",
@@ -206,7 +215,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "spewpa",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "skiddo",
@@ -227,7 +237,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "gogoat",
@@ -249,7 +260,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "skiddo",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "sprigatito",
@@ -270,7 +282,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "floragato",
@@ -292,7 +305,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "sprigatito",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "meowscarada",
@@ -314,7 +328,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "floragato",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "tarountula",
@@ -335,7 +350,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "tarountula",
@@ -356,7 +372,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "tarountula",
@@ -376,7 +393,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "spidops",
@@ -398,7 +416,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "tarountula",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "smoliv",
@@ -418,7 +437,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "smoliv",
@@ -439,7 +459,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "dolliv",
@@ -461,7 +482,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "smoliv",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "arboliva",
@@ -483,7 +505,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "dolliv",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "toedscool",
@@ -503,7 +526,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "toedscool",
@@ -524,7 +548,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "toedscruel",
@@ -546,7 +571,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "toedscool",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "capsakid",
@@ -566,7 +592,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "capsakid",
@@ -587,7 +614,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "scovillain",
@@ -609,7 +637,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "capsakid",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "growlithe",
@@ -629,7 +658,8 @@
     "weakness_type": "water",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "growlithe",
@@ -650,7 +680,8 @@
     "weakness_type": "water",
     "resistance_type": "",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "arcanine",
@@ -671,7 +702,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "growlithe",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "houndour",
@@ -692,7 +724,8 @@
     "weakness_type": "water",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "houndoom",
@@ -714,7 +747,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "houndour",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "torkoal",
@@ -735,7 +769,8 @@
     "weakness_type": "water",
     "resistance_type": "",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "fuecoco",
@@ -756,7 +791,8 @@
     "weakness_type": "water",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "crocalor",
@@ -778,7 +814,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "fuecoco",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "skeledirge",
@@ -800,7 +837,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "crocalor",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "charcadet",
@@ -820,7 +858,8 @@
     "weakness_type": "water",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "charcadet",
@@ -841,7 +880,8 @@
     "weakness_type": "water",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "armarouge",
@@ -863,7 +903,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "charcadet",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "slowpoke",
@@ -884,7 +925,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "slowbro",
@@ -906,7 +948,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "slowpoke",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "magikarp",
@@ -926,7 +969,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "gyarados",
@@ -948,7 +992,8 @@
     "resistance_type": "",
     "retreat": 4,
     "prev_evo": "magikarp",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "buizel",
@@ -969,7 +1014,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "floatzel",
@@ -990,7 +1036,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "buizel",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "alomomola",
@@ -1011,7 +1058,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "clauncher",
@@ -1031,7 +1079,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "clawitzer",
@@ -1053,7 +1102,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "clauncher",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "bruxish",
@@ -1074,7 +1124,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "quaxly",
@@ -1095,7 +1146,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "quaxwell",
@@ -1117,7 +1169,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "quaxly",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "quaquaval",
@@ -1139,7 +1192,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "quaxwell",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "wiglett",
@@ -1159,7 +1213,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "wiglett",
@@ -1179,7 +1234,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "wugtrio",
@@ -1201,7 +1257,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "wiglett",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "cetoddle",
@@ -1221,7 +1278,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "cetoddle",
@@ -1242,7 +1300,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "cetitan",
@@ -1264,7 +1323,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "cetoddle",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "dondozo",
@@ -1285,7 +1345,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 4,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "tatsugiri",
@@ -1305,7 +1366,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "magnemite",
@@ -1326,7 +1388,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "magneton",
@@ -1347,7 +1410,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "magnemite",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "magnezone",
@@ -1368,7 +1432,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "magneton",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "mareep",
@@ -1389,7 +1454,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "flaaffy",
@@ -1411,7 +1477,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "mareep",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "pachirisu",
@@ -1432,7 +1499,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "rotom",
@@ -1452,7 +1520,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "rotom",
@@ -1473,7 +1542,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "toxel",
@@ -1493,7 +1563,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "toxtricity",
@@ -1515,7 +1586,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "toxel",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "pawmi",
@@ -1535,7 +1607,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "pawmi",
@@ -1556,7 +1629,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "pawmo",
@@ -1578,7 +1652,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "pawmi",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "pawmot",
@@ -1600,7 +1675,8 @@
     "resistance_type": "",
     "retreat": 0,
     "prev_evo": "pawmo",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "wattrel",
@@ -1621,7 +1697,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "wattrel",
@@ -1641,7 +1718,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "kilowattrel",
@@ -1663,7 +1741,8 @@
     "resistance_type": "fighting",
     "retreat": 1,
     "prev_evo": "wattrel",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "miraidon",
@@ -1684,7 +1763,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "miraidon",
@@ -1705,7 +1785,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "drowzee",
@@ -1726,7 +1807,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "hypno",
@@ -1748,7 +1830,8 @@
     "resistance_type": "fighting",
     "retreat": 2,
     "prev_evo": "drowzee",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "ralts",
@@ -1769,7 +1852,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "kirlia",
@@ -1791,7 +1875,8 @@
     "resistance_type": "fighting",
     "retreat": 1,
     "prev_evo": "ralts",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "gardevoir",
@@ -1813,7 +1898,8 @@
     "resistance_type": "fighting",
     "retreat": 2,
     "prev_evo": "kirlia",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "shuppet",
@@ -1833,7 +1919,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "banette",
@@ -1855,7 +1942,8 @@
     "resistance_type": "fighting",
     "retreat": 2,
     "prev_evo": "shuppet",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "drifloon",
@@ -1876,7 +1964,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "drifblim",
@@ -1898,7 +1987,8 @@
     "resistance_type": "fighting",
     "retreat": 1,
     "prev_evo": "drifloon",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "flabebe",
@@ -1918,7 +2008,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "floette",
@@ -1940,7 +2031,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "flabebe",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "florges",
@@ -1962,7 +2054,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "floette",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "dedenne",
@@ -1982,7 +2075,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "dedenne",
@@ -2003,7 +2097,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "klefki",
@@ -2023,7 +2118,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "fidough",
@@ -2043,7 +2139,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "fidough",
@@ -2064,7 +2161,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "dachsbun",
@@ -2086,7 +2184,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "fidough",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "flittle",
@@ -2106,7 +2205,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 0,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "flittle",
@@ -2126,7 +2226,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "flittle",
@@ -2146,7 +2247,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "espathra",
@@ -2168,7 +2270,8 @@
     "resistance_type": "fighting",
     "retreat": 0,
     "prev_evo": "flittle",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "greavard",
@@ -2188,7 +2291,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "greavard",
@@ -2209,7 +2313,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "houndstone",
@@ -2230,7 +2335,8 @@
     "resistance_type": "fighting",
     "retreat": 3,
     "prev_evo": "greavard",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "mankey",
@@ -2250,7 +2356,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "primeape",
@@ -2271,7 +2378,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "mankey",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "annihilape",
@@ -2292,7 +2400,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "primeape",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "meditite",
@@ -2312,7 +2421,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "medicham",
@@ -2333,7 +2443,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "meditite",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "riolu",
@@ -2354,7 +2465,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "riolu",
@@ -2375,7 +2487,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "lucario",
@@ -2397,7 +2510,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "riolu",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "sandile",
@@ -2417,7 +2531,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "krokorok",
@@ -2438,7 +2553,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "sandile",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "krookodile",
@@ -2459,7 +2575,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "krokorok",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "hawlucha",
@@ -2480,7 +2597,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "silicobra",
@@ -2501,7 +2619,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "sandaconda",
@@ -2523,7 +2642,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "silicobra",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "stonjourner",
@@ -2544,7 +2664,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "klawf",
@@ -2564,7 +2685,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "great tusk",
@@ -2584,7 +2706,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 4,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "koraidon",
@@ -2605,7 +2728,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "koraidon",
@@ -2626,7 +2750,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "grimer",
@@ -2647,7 +2772,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "muk",
@@ -2669,7 +2795,8 @@
     "resistance_type": "",
     "retreat": 4,
     "prev_evo": "grimer",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "seviper",
@@ -2690,7 +2817,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "spiritomb",
@@ -2710,7 +2838,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "croagunk",
@@ -2731,7 +2860,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "toxicroak",
@@ -2753,7 +2883,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "croagunk",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "pawniard",
@@ -2774,7 +2905,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "bisharp",
@@ -2796,7 +2928,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "pawniard",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "kingambit",
@@ -2818,7 +2951,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "bisharp",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "maschiff",
@@ -2839,7 +2973,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "maschiff",
@@ -2859,7 +2994,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "mabosstiff",
@@ -2881,7 +3017,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "maschiff",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "bombirdier",
@@ -2902,7 +3039,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "forretress",
@@ -2924,7 +3062,8 @@
     "resistance_type": "grass",
     "retreat": 3,
     "prev_evo": "pineco",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "varoom",
@@ -2944,7 +3083,8 @@
     "weakness_type": "fire",
     "resistance_type": "grass",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "varoom",
@@ -2965,7 +3105,8 @@
     "weakness_type": "fire",
     "resistance_type": "grass",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "revavroom",
@@ -2987,7 +3128,8 @@
     "resistance_type": "grass",
     "retreat": 2,
     "prev_evo": "varoom",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "iron treads",
@@ -3008,7 +3150,8 @@
     "weakness_type": "fire",
     "resistance_type": "grass",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "chansey",
@@ -3028,7 +3171,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "blissey",
@@ -3049,7 +3193,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "chansey",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "zangoose",
@@ -3069,7 +3214,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "zangoose",
@@ -3089,7 +3235,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "starly",
@@ -3109,7 +3256,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "staravia",
@@ -3130,7 +3278,8 @@
     "resistance_type": "fighting",
     "retreat": 1,
     "prev_evo": "starly",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "staraptor",
@@ -3151,7 +3300,8 @@
     "resistance_type": "fighting",
     "retreat": 1,
     "prev_evo": "staravia",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "skwovet",
@@ -3171,7 +3321,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "greedent",
@@ -3192,7 +3343,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "skwovet",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "indeedee",
@@ -3212,7 +3364,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "lechonk",
@@ -3232,7 +3385,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "lechonk",
@@ -3252,7 +3406,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "lechonk",
@@ -3272,7 +3427,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "oinkologne",
@@ -3293,7 +3449,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "lechonk",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "oinkologne",
@@ -3314,7 +3471,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "lechonk",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "tandemaus",
@@ -3334,7 +3492,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "tandemaus",
@@ -3354,7 +3513,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "maushold",
@@ -3375,7 +3535,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "tandemaus",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "squawkabilly",
@@ -3395,7 +3556,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "cyclizar",
@@ -3415,7 +3577,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "cyclizar",
@@ -3435,7 +3598,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 0,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "flamigo",
@@ -3455,7 +3619,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "arven",
@@ -3806,7 +3971,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "dolliv",
@@ -3828,7 +3994,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "smoliv",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "toedscool",
@@ -3848,7 +4015,8 @@
     "weakness_type": "fire",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "scovillain",
@@ -3870,7 +4038,8 @@
     "resistance_type": "",
     "retreat": 1,
     "prev_evo": "capsakid",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "armarouge",
@@ -3892,7 +4061,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "charcadet",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "slowpoke",
@@ -3913,7 +4083,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "clauncher",
@@ -3933,7 +4104,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "wiglett",
@@ -3953,7 +4125,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "dondozo",
@@ -3974,7 +4147,8 @@
     "weakness_type": "lightning",
     "resistance_type": "",
     "retreat": 4,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "pachirisu",
@@ -3995,7 +4169,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "pawmot",
@@ -4017,7 +4192,8 @@
     "resistance_type": "",
     "retreat": 0,
     "prev_evo": "pawmo",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "drowzee",
@@ -4038,7 +4214,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "ralts",
@@ -4059,7 +4236,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "kirlia",
@@ -4081,7 +4259,8 @@
     "resistance_type": "fighting",
     "retreat": 1,
     "prev_evo": "ralts",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "fidough",
@@ -4102,7 +4281,8 @@
     "weakness_type": "metal",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "greavard",
@@ -4122,7 +4302,8 @@
     "weakness_type": "darkness",
     "resistance_type": "fighting",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "riolu",
@@ -4143,7 +4324,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "sandile",
@@ -4163,7 +4345,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "klawf",
@@ -4183,7 +4366,8 @@
     "weakness_type": "grass",
     "resistance_type": "",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "mabosstiff",
@@ -4205,7 +4389,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "maschiff",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "bombirdier",
@@ -4226,7 +4411,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "kingambit",
@@ -4248,7 +4434,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "bisharp",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "starly",
@@ -4268,7 +4455,8 @@
     "weakness_type": "lightning",
     "resistance_type": "fighting",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "skwovet",
@@ -4288,7 +4476,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "spidops",
@@ -4310,7 +4499,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "tarountula",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "arcanine",
@@ -4331,7 +4521,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "growlithe",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "gyarados",
@@ -4353,7 +4544,8 @@
     "resistance_type": "",
     "retreat": 4,
     "prev_evo": "magikarp",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "magnezone",
@@ -4375,7 +4567,8 @@
     "resistance_type": "",
     "retreat": 3,
     "prev_evo": "magneton",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "miraidon",
@@ -4396,7 +4589,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "gardevoir",
@@ -4418,7 +4612,8 @@
     "resistance_type": "fighting",
     "retreat": 2,
     "prev_evo": "kirlia",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "banette",
@@ -4440,7 +4635,8 @@
     "resistance_type": "fighting",
     "retreat": 2,
     "prev_evo": "banette",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "great tusk",
@@ -4460,7 +4656,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 4,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "koraidon",
@@ -4481,7 +4678,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "toxicroak",
@@ -4503,7 +4701,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "crogunk",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "iron treads",
@@ -4524,7 +4723,8 @@
     "weakness_type": "fire",
     "resistance_type": "grass",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "oinkologne",
@@ -4545,7 +4745,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "lechonk",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "arven",
@@ -4647,7 +4848,8 @@
     "resistance_type": "",
     "retreat": 2,
     "prev_evo": "tarountula",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "miraidon",
@@ -4668,7 +4870,8 @@
     "weakness_type": "fighting",
     "resistance_type": "",
     "retreat": 1,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "gardevoir",
@@ -4690,7 +4893,8 @@
     "resistance_type": "fighting",
     "retreat": 2,
     "prev_evo": "kirlia",
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "great tusk",
@@ -4710,7 +4914,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 4,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "koraidon",
@@ -4731,7 +4936,8 @@
     "weakness_type": "psychic",
     "resistance_type": "",
     "retreat": 2,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": true
   },
   {
     "name": "iron treads",
@@ -4752,7 +4958,8 @@
     "weakness_type": "fire",
     "resistance_type": "grass",
     "retreat": 3,
-    "card_type": "pokemon"
+    "card_type": "pokemon",
+    "ability": false
   },
   {
     "name": "arven",
