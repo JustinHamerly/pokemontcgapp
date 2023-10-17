@@ -21,7 +21,22 @@ interface FilterPanelProps {
 const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, cardType, pokemonTypes, pokemonStages, setCardType, setPokemonTypes, setPokemonStages, pokemonTera, setPokemonTera, rarity, setRarity }) => {
 
   const handleCardTypeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setCardType(event.target.value);
+    const cardType = event.target.value;
+    if(cardType === 'pokemon'){
+
+    }else if(cardType === 'trainer'){
+      setPokemonTera(false);
+      setPokemonEx(false);
+      setPokemonStages([]);
+      setPokemonTypes([]);
+    }else if(cardType === 'energy'){
+      setRarity([]);
+      setPokemonStages([]);
+      setPokemonTypes([]);
+      setPokemonTera(false);
+      setPokemonEx(false); 
+    }
+    setCardType(cardType);
   };
 
   const handlePokemonTypeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
