@@ -36,7 +36,7 @@ const filterCardsByPokemon = (list: any[], allowedTypes: string[], allowedStages
   }
 
   const checkMoveCosts = (costs: string[], allowedCosts: string[]): boolean => {
-    if (costs){
+    if(costs){
       return costs.some(cost => allowedCosts.includes(cost));
     }
     return false;
@@ -84,9 +84,10 @@ const CardDisplay: React.FC<CardDisplayProps> = () => {
   }, []);
 
   useEffect(() => {
-    const filterGenerics = filterCardsByGenerics(cardType, rarity);
-    const filteredPokemon = filterCardsByPokemon(filterGenerics, pokemonTypes, pokemonStages, pokemonEx, pokemonTera, hasAbility, health, moveCosts)
+    const filtered = filterCardsByGenerics(cardType, rarity);
+    const filteredPokemon = filterCardsByPokemon(filtered, pokemonTypes, pokemonStages, pokemonEx, pokemonTera, hasAbility, health, moveCosts)
     setCardDisplay(filteredPokemon)
+    
   }, [cardType, rarity, pokemonTypes, pokemonStages, pokemonEx, pokemonTera, hasAbility, health, moveCosts])
 
   const cards = mapCardsToPCard(cardDisplay)

@@ -36,8 +36,8 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
       setPokemonStages([]);
       setPokemonTypes([]);
       setHasAbility(false);
-      setHealth([0,400]);
-      
+      setHealth([0, 400]);
+
     } else if (cardType === 'energy') {
       setRarity([]);
       setPokemonStages([]);
@@ -45,7 +45,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
       setPokemonTera(false);
       setPokemonEx(false);
       setHasAbility(false);
-      setHealth([0,400]);
+      setHealth([0, 400]);
     }
     setCardType(cardType);
   };
@@ -124,167 +124,262 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
         <Typography>FILTER</Typography>
       </AccordionSummary>
       <AccordionDetails>
-        <FormControl component="fieldset">
-          <Typography variant="subtitle1">CARD TYPE</Typography>
-          <RadioGroup
-            aria-label="cardType"
-            name="cardType"
-            value={cardType}
-            onChange={handleCardTypeChange}
-          >
-            <FormControlLabel value="all" control={<Radio />} label="All" />
-            <FormControlLabel value="pokemon" control={<Radio />} label="Pokemon" />
-            <FormControlLabel value="trainer" control={<Radio />} label="Trainer" />
-            <FormControlLabel value="energy" control={<Radio />} label="Energy" />
-          </RadioGroup>
-        </FormControl>
-        <FormControl component="fieldset">
-          <Typography>RARITY</Typography>
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Common"
-            value="common"
-            onChange={handleRarityChange}
-            checked={rarity.includes('common')}
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Uncommon"
-            value="uncommon"
-            onChange={handleRarityChange}
-            checked={rarity.includes('uncommon')}
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Rare"
-            value="rare"
-            onChange={handleRarityChange}
-            checked={rarity.includes('rare')}
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Ex Rare"
-            value="double-rare"
-            onChange={handleRarityChange}
-            checked={rarity.includes('double-rare')}
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Art Rare"
-            value="a-rare"
-            onChange={handleRarityChange}
-            checked={rarity.includes('a-rare')}
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Ultra Rare"
-            value="ultra-rare"
-            onChange={handleRarityChange}
-            checked={rarity.includes('ultra-rare')}
-          />
-          <FormControlLabel
-            control={<Checkbox />}
-            label="Special Art Rare"
-            value="sa-rare"
-            onChange={handleRarityChange}
-            checked={rarity.includes('sa-rare')}
-          />
-        </FormControl>
+
+        <Accordion id="card-type-filter">
+          <AccordionSummary>
+            <Typography variant="subtitle1">CARD TYPE</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <FormControl component="fieldset">
+              <RadioGroup
+                aria-label="cardType"
+                name="cardType"
+                value={cardType}
+                onChange={handleCardTypeChange}
+              >
+                <FormControlLabel value="all" control={<Radio />} label="All" />
+                <FormControlLabel value="pokemon" control={<Radio />} label="Pokemon" />
+                <FormControlLabel value="trainer" control={<Radio />} label="Trainer" />
+                <FormControlLabel value="energy" control={<Radio />} label="Energy" />
+              </RadioGroup>
+            </FormControl>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion id="rarity-filter">
+          <AccordionSummary>
+            <Typography>RARITY</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <FormControl component="fieldset">
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Common"
+                value="common"
+                onChange={handleRarityChange}
+                checked={rarity.includes('common')}
+              />
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Uncommon"
+                value="uncommon"
+                onChange={handleRarityChange}
+                checked={rarity.includes('uncommon')}
+              />
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Rare"
+                value="rare"
+                onChange={handleRarityChange}
+                checked={rarity.includes('rare')}
+              />
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Ex Rare"
+                value="double-rare"
+                onChange={handleRarityChange}
+                checked={rarity.includes('double-rare')}
+              />
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Art Rare"
+                value="a-rare"
+                onChange={handleRarityChange}
+                checked={rarity.includes('a-rare')}
+              />
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Ultra Rare"
+                value="ultra-rare"
+                onChange={handleRarityChange}
+                checked={rarity.includes('ultra-rare')}
+              />
+              <FormControlLabel
+                control={<Checkbox />}
+                label="Special Art Rare"
+                value="sa-rare"
+                onChange={handleRarityChange}
+                checked={rarity.includes('sa-rare')}
+              />
+            </FormControl>
+          </AccordionDetails>
+        </Accordion>
+
         {(cardType === 'pokemon' || cardType === 'all') && (
           <>
-            <FormControl component="fieldset">
-              <Typography variant="subtitle1">TYPE</Typography>
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Grass"
-                value="grass"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('grass')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Fire"
-                value="fire"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('fire')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Water"
-                value="water"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('water')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Lightning"
-                value="lightning"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('lightning')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Psychic"
-                value="psychic"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('psychic')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Fighting"
-                value="fighting"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('fighting')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Darkness"
-                value="darkness"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('darkness')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Metal"
-                value="metal"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('metal')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Colorless"
-                value="colorless"
-                onChange={handlePokemonTypeChange}
-                checked={pokemonTypes.includes('colorless')}
-              />
+            <Accordion id="pokemon-type-filter">
+              <AccordionSummary>
+                <Typography variant="subtitle1">POKEMON TYPE</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <FormControl component="fieldset">
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Grass"
+                    value="grass"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('grass')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Fire"
+                    value="fire"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('fire')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Water"
+                    value="water"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('water')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Lightning"
+                    value="lightning"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('lightning')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Psychic"
+                    value="psychic"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('psychic')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Fighting"
+                    value="fighting"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('fighting')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Darkness"
+                    value="darkness"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('darkness')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Metal"
+                    value="metal"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('metal')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Colorless"
+                    value="colorless"
+                    onChange={handlePokemonTypeChange}
+                    checked={pokemonTypes.includes('colorless')}
+                  />
+                </FormControl>
+              </AccordionDetails>
+            </Accordion>
 
+            <Accordion id="stage-filter">
+              <AccordionSummary>
+                <Typography variant="subtitle1">STAGE</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <FormControl component="fieldset">
 
-            </FormControl>
-            <FormControl component="fieldset">
-              <Typography variant="subtitle1">STAGE</Typography>
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Basic"
-                value="basic"
-                onChange={handlePokemonStageChange}
-                checked={pokemonStages.includes('basic')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Stage One"
-                value="stageone"
-                onChange={handlePokemonStageChange}
-                checked={pokemonStages.includes('stageone')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Stage Two"
-                value="stagetwo"
-                onChange={handlePokemonStageChange}
-                checked={pokemonStages.includes('stagetwo')}
-              />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Basic"
+                    value="basic"
+                    onChange={handlePokemonStageChange}
+                    checked={pokemonStages.includes('basic')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Stage One"
+                    value="stageone"
+                    onChange={handlePokemonStageChange}
+                    checked={pokemonStages.includes('stageone')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Stage Two"
+                    value="stagetwo"
+                    onChange={handlePokemonStageChange}
+                    checked={pokemonStages.includes('stagetwo')}
+                  />
 
-            </FormControl>
+                </FormControl>
+              </AccordionDetails>
+            </Accordion>
+
+            <Accordion id="move-cost-filter">
+              <AccordionSummary>
+                <Typography variant="subtitle1">MOVE COST</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <FormControl component="fieldset">
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Grass"
+                    value="grass"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('grass')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Fire"
+                    value="fire"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('fire')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Water"
+                    value="water"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('water')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Lightning"
+                    value="lightning"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('lightning')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Psychic"
+                    value="psychic"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('psychic')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Fighting"
+                    value="fighting"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('fighting')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Darkness"
+                    value="darkness"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('darkness')}
+                  />
+                  <FormControlLabel
+                    control={<Checkbox />}
+                    label="Metal"
+                    value="metal"
+                    onChange={handleMoveCostChange}
+                    checked={moveCosts.includes('metal')}
+                  />
+
+                </FormControl>
+              </AccordionDetails>
+            </Accordion>
+
             <FormControl component="fieldset">
               <FormControlLabel
                 control={<Switch />}
@@ -294,6 +389,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 checked={pokemonEx}
               />
             </FormControl>
+
             <FormControl component="fieldset">
               <FormControlLabel
                 control={<Switch />}
@@ -303,6 +399,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 checked={pokemonTera}
               />
             </FormControl>
+
             <FormControl component="fieldset">
               <FormControlLabel
                 control={<Switch />}
@@ -312,6 +409,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 checked={hasAbility}
               />
             </FormControl>
+
             <Typography>HEALTH:</Typography>
             <Slider
               value={health}
@@ -322,66 +420,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
               valueLabelDisplay="auto"
               aria-labelledby="health-slider"
             />
-            <FormControl component="fieldset">
-              <Typography variant="subtitle1">MoveCost</Typography>
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Grass"
-                value="grass"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('grass')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Fire"
-                value="fire"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('fire')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Water"
-                value="water"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('water')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Lightning"
-                value="lightning"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('lightning')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Psychic"
-                value="psychic"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('psychic')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Fighting"
-                value="fighting"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('fighting')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Darkness"
-                value="darkness"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('darkness')}
-              />
-              <FormControlLabel
-                control={<Checkbox />}
-                label="Metal"
-                value="metal"
-                onChange={handleMoveCostChange}
-                checked={moveCosts.includes('metal')}
-              />
 
-            </FormControl>
 
           </>
         )}
