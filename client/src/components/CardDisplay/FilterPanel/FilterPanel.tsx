@@ -13,9 +13,12 @@ interface FilterPanelProps {
   pokemonEx: boolean;
   setPokemonTera: Function;
   pokemonTera: boolean;
+  setRarity: Function;
+  rarity: string[];
+
 };
 
-const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, cardType, pokemonTypes, pokemonStages, setCardType, setPokemonTypes, setPokemonStages, pokemonTera, setPokemonTera }) => {
+const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, cardType, pokemonTypes, pokemonStages, setCardType, setPokemonTypes, setPokemonStages, pokemonTera, setPokemonTera, rarity, setRarity }) => {
 
   const handleCardTypeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setCardType(event.target.value);
@@ -57,6 +60,18 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
     })
   }
 
+  const handleRarityChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const rarity = event.target.value;
+    setRarity((prevRarity: string[]) => {
+      if (prevRarity.includes(rarity)) {
+        return prevRarity.filter(type => type !== rarity);
+      } else {
+        return [...prevRarity, rarity]
+      }
+    })
+
+  }
+
   return (
     <Accordion>
       <AccordionSummary expandIcon={<FilterListIcon />} id="filter-dropdown">
@@ -76,6 +91,51 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
             <FormControlLabel value="trainer" control={<Radio />} label="Trainer" />
             <FormControlLabel value="energy" control={<Radio />} label="Energy" />
           </RadioGroup>
+        </FormControl>
+        <FormControl component="fieldset">
+          <Typography>RARITY</Typography>
+          <FormControlLabel
+            control={<Checkbox/>}
+            label="Common"
+            value="common"
+            onChange={handleRarityChange}
+            checked={rarity.includes('common')}
+          />
+          <FormControlLabel
+            control={<Checkbox/>}
+            label="Uncommon"
+            value="uncommon"
+            onChange={handleRarityChange}
+            checked={rarity.includes('uncommon')}
+          />
+          <FormControlLabel
+            control={<Checkbox/>}
+            label="Rare"
+            value="rare"
+            onChange={handleRarityChange}
+            checked={rarity.includes('rare')}
+          />
+          <FormControlLabel
+            control={<Checkbox/>}
+            label="Ultra Rare"
+            value="ultra-rare"
+            onChange={handleRarityChange}
+            checked={rarity.includes('ultra-rare')}
+          />
+          <FormControlLabel
+            control={<Checkbox/>}
+            label="Art Rare"
+            value="a-rare"
+            onChange={handleRarityChange}
+            checked={rarity.includes('a-rare')}
+          />
+          <FormControlLabel
+            control={<Checkbox/>}
+            label="Special Art Rare"
+            value="sa-rare"
+            onChange={handleRarityChange}
+            checked={rarity.includes('sa-rare')}
+          />
         </FormControl>
         {(cardType === 'pokemon' || cardType === 'all') && (
           <>
@@ -170,7 +230,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 onChange={handlePokemonStageChange}
                 checked={pokemonStages.includes('stagetwo')}
               />
-              
+
             </FormControl>
             <FormControl component="fieldset">
               <FormControlLabel
@@ -179,7 +239,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 value="ex"
                 onChange={handlePokemonExChange}
                 checked={pokemonEx}
-              />             
+              />
             </FormControl>
             <FormControl component="fieldset">
               <FormControlLabel
@@ -188,7 +248,7 @@ const FilterPanel: React.FC<FilterPanelProps> = ({ pokemonEx, setPokemonEx, card
                 value="tera"
                 onChange={handlePokemonTeraChange}
                 checked={pokemonTera}
-              />             
+              />
             </FormControl>
           </>
         )}
