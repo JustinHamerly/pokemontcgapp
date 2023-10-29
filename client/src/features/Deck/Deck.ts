@@ -1,10 +1,20 @@
 export default class Deck {
   deckList: Map<string, number> = new Map<string, number>();;
   isValid: boolean = false;
-  cardCount: number = 0;
 
   checkIfValid(): void {
-   this.isValid = this.cardCount === 60;
+    const listIterator = this.deckList.entries();
+    let total = 0;
+    let entry = listIterator.next();
+
+    while(!entry.done){
+      total += entry.value[1];
+      if(total>60){
+        break;
+      }
+      entry = listIterator.next();
+    }
+    this.isValid = total === 60; 
   }
 
   addCard(id: string): void {
@@ -12,7 +22,6 @@ export default class Deck {
 
     if (cardCount < 4){
       this.deckList.set(id, cardCount + 1);
-      this.cardCount++;
     }
 
     this.checkIfValid();
@@ -29,7 +38,6 @@ export default class Deck {
       }else{
         this.deckList.set(id, newCount);
       }
-      this.cardCount--;
     }
 
     this.checkIfValid()
