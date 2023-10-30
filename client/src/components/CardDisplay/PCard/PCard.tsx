@@ -22,8 +22,8 @@ const PCard: React.FC<PCardProps> = ({ imgPath, id, desc }) => {
         className={styles.img}
       />
       <div className={styles.cardButtons}>
-        <Button color="red"><AddCircleIcon /></Button>
-        <Button><RemoveCircleIcon /></Button>
+        <Button color="primary"><AddCircleIcon /></Button>
+        <Button color="primary"><RemoveCircleIcon /></Button>
       </div>
 
     </Paper>
