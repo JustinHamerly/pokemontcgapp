@@ -5,10 +5,16 @@
   margin: .5rem;
   border-radius: 8px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 3px;
 }
 
 .img {
   border-radius: 5px;
+}
+
+.cardButtons {
+  display: flex;
+  justify-content: space-evenly;
 }

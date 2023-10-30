@@ -1,4 +1,5 @@
 export default class Deck {
+  name: string = 'New Deck';
   deckList: Map<string, number> = new Map<string, number>();;
   isValid: boolean = false;
 
@@ -17,16 +18,15 @@ export default class Deck {
     this.isValid = total === 60; 
   }
 
-  addCard(id: string): void {
+  addCard(id: string, isEnergy: boolean): void {
     const cardCount = this.deckList.get(id) ?? 0;
 
-    if (cardCount < 4){
+    if (cardCount < 4 || isEnergy){
       this.deckList.set(id, cardCount + 1);
     }
 
     this.checkIfValid();
   }
-
 
   removeCard(id: string){
     const cardCount = this.deckList.get(id);
@@ -42,4 +42,9 @@ export default class Deck {
 
     this.checkIfValid()
   }
+
+  nameDeck(name: string){
+    this.name = name;
+  }
+
 }

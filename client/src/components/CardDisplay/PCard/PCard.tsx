@@ -1,5 +1,7 @@
 import React from "react";
-import { Paper } from "@mui/material";
+import { Paper, Button } from "@mui/material";
+import AddCircleIcon from '@mui/icons-material/AddCircle';
+import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
 import Image from "next/image";
 import styles from './pcard.module.css';
 
@@ -9,7 +11,7 @@ interface PCardProps {
   desc: string;
 }
 
-const PCard: React.FC<PCardProps> = ({imgPath, id, desc}) => {
+const PCard: React.FC<PCardProps> = ({ imgPath, id, desc }) => {
   return (
     <Paper className={styles.pcard} key={id} square={false} elevation={2}>
       <Image
@@ -19,6 +21,11 @@ const PCard: React.FC<PCardProps> = ({imgPath, id, desc}) => {
         alt={desc}
         className={styles.img}
       />
+      <div className={styles.cardButtons}>
+        <Button color="red"><AddCircleIcon /></Button>
+        <Button><RemoveCircleIcon /></Button>
+      </div>
+
     </Paper>
   )
 }
