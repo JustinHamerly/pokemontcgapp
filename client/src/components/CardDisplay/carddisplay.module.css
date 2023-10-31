@@ -1,9 +1,0 @@
-.carddisplay {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-  background-color: antiquewhite;
-}
