@@ -24,9 +24,9 @@ class Card {
     this.set=set;
     this.setNum = setNum;
     this.rarity = rarity;
-    this.illustrator = illustrator,
-    this.imgPath = imgPath,
-    this.cardType = cardType
+    this.illustrator = illustrator;
+    this.imgPath = imgPath;
+    this.cardType = cardType;
     this.id = set+setNum;
   }
 }
@@ -43,20 +43,43 @@ class PokemonCard extends Card {
     this.moveCosts = moveCosts;
     this.weakness = weakness;
     this.resistance = resistance;
+    this.trainerSubtype = '';
+    this.basicEnergy = false;
   }
 }
 
 class TrainerCard extends Card {
-  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, subType){
+  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, trainerSubtype){
     super(name, set, setNum, rarity, illustrator, imgPath, cardType);
-    this.subType = subType;
+    this.trainerSubtype = trainerSubtype;
+    this.stage ='';
+    this.hp = 0;
+    this.type = '';
+    this.ex = false;
+    this.tera = false;
+    this.ability = false;
+    this.moveCosts = [];
+    this.weakness = '';
+    this.resistance = '';
+    this.basicEnergy = false;
   }
 }
 
 class EnergyCard extends Card {
-  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, nonBasic){
+  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, basicEnergy){
     super(name, set, setNum, rarity, illustrator, imgPath, cardType);
-    this.nonBasic = nonBasic;
+    this.basicEnergy = basicEnergy;
+    this.trainerSubtype = '';
+    this.stage ='';
+    this.hp = 0;
+    this.type = '';
+    this.ex = false;
+    this.tera = false;
+    this.ability = false;
+    this.moveCosts = [];
+    this.weakness = '';
+    this.resistance = '';
+    this.basicEnergy = false;
   }
 }
 
