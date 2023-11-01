@@ -4,6 +4,7 @@ import CardDisplayPane from './CardDisplayPane/CardDisplayPane'
 import SelectedCardZoom from './SelectedCardZoom/SelectedCardZoom'
 
 export default function CardBrowser() {
+  
   return (
     <div>
       <FilterPanel />
