@@ -1,6 +1,6 @@
 import React, {useContext} from 'react'
+import { Box } from '@mui/material';
 import DisplayCard from './DisplayCard/DisplayCard'
-
 import { CardCollectionContext } from '../../../../../context/CollectionContext'
 
 export default function CardDisplayPane() {
@@ -8,8 +8,12 @@ export default function CardDisplayPane() {
   const {cardArray} = useContext(CardCollectionContext);
 
   return (
-    <div>
-      {cardArray && cardArray.map((card, idx) => <DisplayCard key={card.id} />)}
-    </div>
+    <Box sx={{
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'space-evenly'
+    }}>
+      {cardArray && cardArray.map(card => <DisplayCard key={card.id} cardImg={card.imgPath} name={card.name}/>)}
+    </Box>
   )
 }

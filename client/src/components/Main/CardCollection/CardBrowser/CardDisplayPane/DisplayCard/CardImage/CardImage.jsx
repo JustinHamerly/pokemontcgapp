@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function CardImage() {
+export default function CardImage({cardImg, name}) {
   return (
-    <div>CardImage</div>
+    <img src={cardImg} height={200} alt={name} />
   )
 }
