@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import HeaderBar from './components/HeaderBar/HeaderBar';
 
 function App() {
   return (
     <div className="App">
-        <h1>Pokemon TCG app</h1>
+      <HeaderBar />
     </div>
   );
 }
