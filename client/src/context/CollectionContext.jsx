@@ -28,12 +28,31 @@ const CardCollectionProvider = (props) => {
   }, []);
 
 
+  const [cardType, setCardType] = useState('');
+
+  useEffect(() => {
+
+    const filterCards = () => {
+      let arrayCopy = Array.from(collection.values());
+      if (cardType !== ''){
+        arrayCopy = arrayCopy.filter(card => card.cardType === cardType);
+      }
+      setCardArray(arrayCopy);
+    }
+    if(collection){
+      filterCards();
+    }
+  }, [collection, cardType]);
+
+
   return (
     <CardCollectionContext.Provider value={{
       collection,
       cardArray,
       showFilter,
-      toggleShowFilter
+      toggleShowFilter,
+      cardType,
+      setCardType
     }}> 
       {props.children}
     </CardCollectionContext.Provider>

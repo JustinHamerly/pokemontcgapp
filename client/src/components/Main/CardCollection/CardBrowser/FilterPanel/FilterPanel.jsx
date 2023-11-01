@@ -1,9 +1,10 @@
 import React, { useContext } from 'react'
 import { Drawer } from '@mui/material'
 import { CardCollectionContext } from '../../../../../context/CollectionContext'
+import CardTypeFilter from './Filters/CardTypeFilter';
 
 export default function FilterPanel() {
-  const {showFilter, toggleShowFilter} = useContext(CardCollectionContext);
+  const { showFilter, toggleShowFilter } = useContext(CardCollectionContext);
 
   return (
     <Drawer
@@ -11,7 +12,7 @@ export default function FilterPanel() {
       open={showFilter}
       onClose={toggleShowFilter}
     >
-      Filters Go Here
+      <CardTypeFilter />
     </Drawer>
   )
 }
