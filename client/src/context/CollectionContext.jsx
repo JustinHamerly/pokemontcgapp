@@ -8,6 +8,11 @@ const CardCollectionProvider = (props) => {
   const [collection, setCollection] = useState(null);
   const [cardArray, setCardArray] = useState(null);
 
+  const [showFilter, setShowfilter] = useState(false);
+  const toggleShowFilter = () => {
+    setShowfilter(prev => !prev);
+  }
+
   useEffect(() => {
     const fetchAllCardData = async () => {
       const {data} = await axios({method: 'get', baseURL: process.env.REACT_APP_COLLECTIONSERVER, url: '/all'});
@@ -26,7 +31,9 @@ const CardCollectionProvider = (props) => {
   return (
     <CardCollectionContext.Provider value={{
       collection,
-      cardArray
+      cardArray,
+      showFilter,
+      toggleShowFilter
     }}> 
       {props.children}
     </CardCollectionContext.Provider>
