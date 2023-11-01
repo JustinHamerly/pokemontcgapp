@@ -1,11 +1,12 @@
 import React, { useState, createContext, useEffect } from 'react';
 import axios from 'axios';
 
-export const CollectionContext = createContext();
+export const CardCollectionContext = createContext();
 
-const CollectionProvider = (props) => {
+const CardCollectionProvider = (props) => {
 
   const [collection, setCollection] = useState(null);
+  const [cardArray, setCardArray] = useState(null);
 
   useEffect(() => {
     const fetchAllCardData = async () => {
@@ -15,18 +16,21 @@ const CollectionProvider = (props) => {
         collectionMap.set(card.id, card);
       })
       setCollection(collectionMap);
+      const cardArr = Array.from(collectionMap.values());
+      setCardArray(cardArr);
     }
     fetchAllCardData();
   }, []);
 
 
   return (
-    <CollectionContext.Provider value={{
-      collection
+    <CardCollectionContext.Provider value={{
+      collection,
+      cardArray
     }}> 
       {props.children}
-    </CollectionContext.Provider>
+    </CardCollectionContext.Provider>
   )
 }
 
-export default CollectionProvider;
+export default CardCollectionProvider;
