@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom'
 export default function TopNavigation() {
 
   const pages = ['', 'collection', 'game', 'inventory', 'account'];
-  
+
   return (
     <div>
       {pages.map(page => (
-        <Button>
+        <Button key={page}>
           <Link to={"/"+page}>{page}</Link>
         </Button>   
       ))}
