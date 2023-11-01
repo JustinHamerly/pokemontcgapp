@@ -6,11 +6,15 @@ export const CollectionContext = createContext();
 const CollectionProvider = (props) => {
 
   const [collection, setCollection] = useState(null);
+
   useEffect(() => {
     const fetchAllCardData = async () => {
       const {data} = await axios({method: 'get', baseURL: process.env.REACT_APP_COLLECTIONSERVER, url: '/all'});
-      console.log(data);
-      setCollection(data);
+      const collectionMap = new Map();
+      data.forEach(card => {
+        collectionMap.set(card.id, card);
+      })
+      setCollection(collectionMap);
     }
     fetchAllCardData();
   }, []);
