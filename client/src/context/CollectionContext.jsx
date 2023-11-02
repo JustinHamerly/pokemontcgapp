@@ -8,6 +8,8 @@ const CardCollectionProvider = (props) => {
   const [collection, setCollection] = useState(null);
   const [cardArray, setCardArray] = useState(null);
 
+  const [showFilter, setShowFilter] = useState(false);
+  
   useEffect(() => {
     const fetchAllCardData = async () => {
       const {data} = await axios({method: 'get', baseURL: process.env.REACT_APP_COLLECTIONSERVER, url: '/all'});
@@ -23,10 +25,49 @@ const CardCollectionProvider = (props) => {
   }, []);
 
 
+  const [cardType, setCardType] = useState('');
+  const [pokemonTypes, setPokemonTypes] = useState([]);
+  const [rarity, setRarity] = useState('');
+
+  useEffect(() => {
+
+    const filterCards = () => {
+      let arrayCopy = Array.from(collection.values());
+
+      if (cardType !== ''){
+        arrayCopy = arrayCopy.filter(card => card.cardType === cardType);
+      }
+
+      if (rarity !==''){
+        arrayCopy = arrayCopy.filter(card => card.rarity === rarity);
+      }
+
+      if(pokemonTypes.length>0){
+        arrayCopy = arrayCopy.filter(card => pokemonTypes.includes(card.type))
+      }
+
+      setCardArray(arrayCopy);
+    }
+
+    if(collection){
+      filterCards();
+    }
+
+  }, [collection, cardType, rarity, pokemonTypes]);
+
+
   return (
     <CardCollectionContext.Provider value={{
       collection,
-      cardArray
+      cardArray,
+      showFilter,
+      setShowFilter,
+      cardType,
+      setCardType,
+      pokemonTypes,
+      setPokemonTypes,
+      rarity,
+      setRarity
     }}> 
       {props.children}
     </CardCollectionContext.Provider>
