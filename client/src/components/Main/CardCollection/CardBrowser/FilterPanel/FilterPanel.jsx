@@ -6,9 +6,10 @@ import PokemonTypeFilter from './Filters/PokemonTypeFilter';
 import RarityFilter from './Filters/RarityFilter';
 import PokemonStageFilter from './Filters/PokemonStageFilter';
 import WeaknessFilter from './Filters/WeaknessFilter';
+import ResistanceFilter from './Filters/ResistanceFilter';
 
 export default function FilterPanel() {
-  const { showFilter, setShowFilter } = useContext(CardCollectionContext);
+  const { showFilter, setShowFilter, cardType } = useContext(CardCollectionContext);
 
   return (
     <Drawer
@@ -18,9 +19,15 @@ export default function FilterPanel() {
     >
       <CardTypeFilter />
       <RarityFilter /> 
-      <PokemonTypeFilter />
-      <PokemonStageFilter />
-      <WeaknessFilter />
+      {
+        (cardType === 'pokemon' || !cardType) &&
+        <>
+          <PokemonTypeFilter />
+          <PokemonStageFilter />
+          <WeaknessFilter />
+          <ResistanceFilter />
+        </>
+      }
     </Drawer>
   )
 }
