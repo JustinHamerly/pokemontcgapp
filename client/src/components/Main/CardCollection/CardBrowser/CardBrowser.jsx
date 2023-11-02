@@ -7,11 +7,11 @@ import SelectedCardZoom from './SelectedCardZoom/SelectedCardZoom'
 import { CardCollectionContext } from '../../../../context/CollectionContext'
 
 export default function CardBrowser() {
-  const {toggleShowFilter} = useContext(CardCollectionContext);
+  const {setShowFilter} = useContext(CardCollectionContext);
   
   return (
     <>
-      <Button onClick={toggleShowFilter}>FILTER</Button>
+      <Button onClick={() => setShowFilter(prev => !prev)}>FILTER</Button>
       <Box sx={{
         display: 'flex',
         flexDirection: 'row',
