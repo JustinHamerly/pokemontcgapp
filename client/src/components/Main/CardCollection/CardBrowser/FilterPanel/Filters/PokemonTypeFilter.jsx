@@ -8,16 +8,17 @@ export default function PokemonTypeFilter() {
   const handleChecked = (e) => {
     const type = e.target.value;
     const checked = e.target.checked;
-    let newTypes = [...pokemonTypes]
-    if(checked){
-      newTypes = newTypes.includes(type) ? [...newTypes] : [...newTypes, type];
-    }else{
-      newTypes = newTypes.filter(t => t !== type); 
-    }
-    setPokemonTypes(newTypes);
+    
+    setPokemonTypes(prevTypes => {   
+      if(checked){
+        return prevTypes.includes(type) ? [...prevTypes] : [...prevTypes, type];
+      }else{
+        return prevTypes.filter(t => t !== type); 
+      }
+    })
   }
 
-  const types = ['grass', 'fire', 'water', 'lighting', 'fighting', 'psychic', 'darkness', 'metal', 'dragon'];
+  const types = ['grass', 'fire', 'water', 'lightning', 'fighting', 'psychic', 'darkness', 'metal', 'dragon'];
   return (
     <FormGroup>
       <FormLabel id="pokemon-type-filter">POKEMON TYPE</FormLabel>

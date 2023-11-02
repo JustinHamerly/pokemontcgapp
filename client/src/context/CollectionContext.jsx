@@ -27,6 +27,7 @@ const CardCollectionProvider = (props) => {
 
   const [cardType, setCardType] = useState('');
   const [pokemonTypes, setPokemonTypes] = useState([]);
+  const [rarity, setRarity] = useState('');
 
   useEffect(() => {
 
@@ -35,6 +36,10 @@ const CardCollectionProvider = (props) => {
 
       if (cardType !== ''){
         arrayCopy = arrayCopy.filter(card => card.cardType === cardType);
+      }
+
+      if (rarity !==''){
+        arrayCopy = arrayCopy.filter(card => card.rarity === rarity);
       }
 
       if(pokemonTypes.length>0){
@@ -48,7 +53,7 @@ const CardCollectionProvider = (props) => {
       filterCards();
     }
 
-  }, [collection, cardType, pokemonTypes]);
+  }, [collection, cardType, rarity, pokemonTypes]);
 
 
   return (
@@ -60,7 +65,9 @@ const CardCollectionProvider = (props) => {
       cardType,
       setCardType,
       pokemonTypes,
-      setPokemonTypes
+      setPokemonTypes,
+      rarity,
+      setRarity
     }}> 
       {props.children}
     </CardCollectionContext.Provider>
