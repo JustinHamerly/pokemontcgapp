@@ -24,7 +24,6 @@ const CardCollectionProvider = (props) => {
     fetchAllCardData();
     
   }, []);
-  console.log(collection);
 
 
   const [cardType, setCardType] = useState('');
@@ -36,6 +35,11 @@ const CardCollectionProvider = (props) => {
   const [retreat, setRetreat] = useState(-1);
   const [hp, setHP] = useState([0, 400]);
   const [moveCost, setMoveCost] = useState('');
+  const [ex, setEx] = useState(false);
+  const [hasAbility, setHasAbility] = useState(false);
+  const [tera, setTera] = useState(false);
+  const [trainerSubtype, setTrainerSubtype] = useState('');
+  const [nonBasic, setNonBasic] = useState(false);
 
   useEffect(() => {
 
@@ -49,7 +53,7 @@ const CardCollectionProvider = (props) => {
       if (rarity !==''){
         arrayCopy = arrayCopy.filter(card => card.rarity === rarity);
       }
-
+      
       if(pokemonTypes.length>0){
         arrayCopy = arrayCopy.filter(card => pokemonTypes.includes(card.type))
       }
@@ -74,6 +78,26 @@ const CardCollectionProvider = (props) => {
         arrayCopy = arrayCopy.filter(card => (card.hp >= hp[0] && card.hp <= hp[1]))
       }
 
+      if(moveCost !== ''){
+        if(moveCost === 'colorless'){
+          arrayCopy = arrayCopy.filter(card => (card.moveCosts.length === 1 && card.moveCosts[0] === 'colorless'))
+        }else{
+          arrayCopy = arrayCopy.filter(card => card.moveCosts.includes(moveCost))
+        }
+      }
+
+      if(ex) arrayCopy = arrayCopy.filter(card => card.ex)
+      
+      if(hasAbility) arrayCopy = arrayCopy.filter(card => card.ability)
+
+      if(tera) arrayCopy = arrayCopy.filter(card => card.tera)
+
+      if(trainerSubtype !== ''){
+        arrayCopy = arrayCopy.filter(card => card.trainerSubtype === trainerSubtype)
+      }
+
+      if(nonBasic) arrayCopy = arrayCopy.filter(card => card.nonBasicEnergy)
+
       setCardArray(arrayCopy);
     }
 
@@ -81,7 +105,7 @@ const CardCollectionProvider = (props) => {
       filterCards();
     }
 
-  }, [collection, cardType, rarity, pokemonTypes, stage, weakness, resistance, retreat, hp]);
+  }, [collection, cardType, rarity, pokemonTypes, stage, weakness, resistance, retreat, hp, moveCost, ex, hasAbility, tera, trainerSubtype, nonBasic]);
 
 
   return (
@@ -107,7 +131,17 @@ const CardCollectionProvider = (props) => {
       hp,
       setHP,
       moveCost,
-      setMoveCost
+      setMoveCost,
+      ex,
+      setEx,
+      hasAbility,
+      setHasAbility,
+      tera,
+      setTera,
+      trainerSubtype,
+      setTrainerSubtype,
+      nonBasic,
+      setNonBasic
     }}> 
       {props.children}
     </CardCollectionContext.Provider>

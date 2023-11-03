@@ -9,7 +9,7 @@ export default function CardTypeFilter() {
       <FormLabel id="card-type-filter">CARD TYPE</FormLabel>
       <RadioGroup
         aria-labelledby="card-type-filter"
-        defaultValue={cardType}
+        value={cardType}
         name="card-type-filter-group"
         onChange={(e) => setCardType(e.target.value)}
       >
