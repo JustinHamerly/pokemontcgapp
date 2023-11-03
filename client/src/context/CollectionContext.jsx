@@ -35,6 +35,7 @@ const CardCollectionProvider = (props) => {
   const [resistance, setResistance] = useState('');
   const [retreat, setRetreat] = useState(-1);
   const [hp, setHP] = useState([0, 400]);
+  const [moveCost, setMoveCost] = useState('');
 
   useEffect(() => {
 
@@ -104,7 +105,9 @@ const CardCollectionProvider = (props) => {
       retreat,
       setRetreat,
       hp,
-      setHP
+      setHP,
+      moveCost,
+      setMoveCost
     }}> 
       {props.children}
     </CardCollectionContext.Provider>
