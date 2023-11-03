@@ -45,7 +45,7 @@ class PokemonCard extends Card {
     this.resistance = resistance;
     this.retreat = retreat;
     this.trainerSubtype = '';
-    this.basicEnergy = false;
+    this.nonBasicEnergy = false;
   }
 }
 
@@ -63,14 +63,14 @@ class TrainerCard extends Card {
     this.weakness = '';
     this.resistance = '';
     this.retreat = -1;
-    this.basicEnergy = false;
+    this.nonBasicEnergy = false;
   }
 }
 
 class EnergyCard extends Card {
-  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, basicEnergy){
+  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, nonBasicEnergy){
     super(name, set, setNum, rarity, illustrator, imgPath, cardType);
-    this.basicEnergy = basicEnergy;
+    this.nonBasicEnergy = nonBasicEnergy;
     this.trainerSubtype = '';
     this.stage ='';
     this.hp = 0;
@@ -82,7 +82,6 @@ class EnergyCard extends Card {
     this.weakness = '';
     this.resistance = '';
     this.retreat = -1;
-    this.basicEnergy = false;
   }
 }
 
