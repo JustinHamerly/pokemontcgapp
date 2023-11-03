@@ -74,6 +74,15 @@ const CardCollectionProvider = (props) => {
         arrayCopy = arrayCopy.filter(card => (card.hp >= hp[0] && card.hp <= hp[1]))
       }
 
+      if(moveCost !== ''){
+        console.log(moveCost)
+        if(moveCost === 'colorless'){
+          arrayCopy = arrayCopy.filter(card => (card.moveCosts.length === 1 && card.moveCosts[0] === 'colorless'))
+        }else{
+          arrayCopy = arrayCopy.filter(card => card.moveCosts.includes(moveCost))
+        }
+      }
+
       setCardArray(arrayCopy);
     }
 
@@ -81,7 +90,7 @@ const CardCollectionProvider = (props) => {
       filterCards();
     }
 
-  }, [collection, cardType, rarity, pokemonTypes, stage, weakness, resistance, retreat, hp]);
+  }, [collection, cardType, rarity, pokemonTypes, stage, weakness, resistance, retreat, hp, moveCost]);
 
 
   return (
