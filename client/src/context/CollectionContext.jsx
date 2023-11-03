@@ -108,6 +108,22 @@ const CardCollectionProvider = (props) => {
   }, [collection, cardType, rarity, pokemonTypes, stage, weakness, resistance, retreat, hp, moveCost, ex, hasAbility, tera, trainerSubtype, nonBasic]);
 
 
+
+  const [cardZoomOpen, setCardZoomOpen] = useState(false);
+  const [selectedCardId, setSelectedCardId] = useState(''); 
+  const [selectedCardData, setSelectedCardData] = useState(null)
+
+  useEffect(() => {
+    if(collection && selectedCardId){
+
+      const cardInfo = collection.get(selectedCardId);
+      setSelectedCardData(cardInfo);
+      setCardZoomOpen(true)
+    }
+
+  }, [selectedCardId, collection])
+
+
   return (
     <CardCollectionContext.Provider value={{
       collection,
@@ -141,7 +157,13 @@ const CardCollectionProvider = (props) => {
       trainerSubtype,
       setTrainerSubtype,
       nonBasic,
-      setNonBasic
+      setNonBasic,
+      cardZoomOpen,
+      setCardZoomOpen,
+      selectedCardId,
+      setSelectedCardId,
+      selectedCardData,
+      setSelectedCardData
     }}> 
       {props.children}
     </CardCollectionContext.Provider>
