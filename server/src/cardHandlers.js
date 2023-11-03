@@ -4,7 +4,7 @@ const fetchAll = (req, res) => {
   try {
     const cardsWithId = cards.map(card => {
       if(card.card_type === 'pokemon'){
-        return new PokemonCard(card.name, card.set, card.set_num, card.rarity, card.illustrator, card.img_path, card.card_type, card.stage, card.hp, card.type, card.ex, card.tera, card.ability, card.move_costs, card.weakness_type, card.resistance_type, card.ability);
+        return new PokemonCard(card.name, card.set, card.set_num, card.rarity, card.illustrator, card.img_path, card.card_type, card.stage, card.hp, card.type, card.ex, card.tera, card.ability, card.move_costs, card.weakness_type, card.resistance_type, card.retreat);
       }else if(card.card_type === 'trainer'){
         return new TrainerCard(card.name, card.set, card.set_num, card.rarity, card.illustrator, card.img_path, card.card_type, card.trainer_subtype)
       }else if(card.card_type === 'energy'){
@@ -32,7 +32,7 @@ class Card {
 }
 
 class PokemonCard extends Card {
-  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, stage, hp, type, ex, tera, ability, moveCosts, weakness, resistance){
+  constructor(name, set, setNum, rarity, illustrator, imgPath, cardType, stage, hp, type, ex, tera, ability, moveCosts, weakness, resistance, retreat){
     super(name, set, setNum, rarity, illustrator, imgPath, cardType);
     this.stage = stage;
     this.hp = hp;
@@ -43,6 +43,7 @@ class PokemonCard extends Card {
     this.moveCosts = moveCosts;
     this.weakness = weakness;
     this.resistance = resistance;
+    this.retreat = retreat;
     this.trainerSubtype = '';
     this.basicEnergy = false;
   }
@@ -61,6 +62,7 @@ class TrainerCard extends Card {
     this.moveCosts = [];
     this.weakness = '';
     this.resistance = '';
+    this.retreat = -1;
     this.basicEnergy = false;
   }
 }
@@ -79,6 +81,7 @@ class EnergyCard extends Card {
     this.moveCosts = [];
     this.weakness = '';
     this.resistance = '';
+    this.retreat = -1;
     this.basicEnergy = false;
   }
 }
