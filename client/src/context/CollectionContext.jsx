@@ -39,7 +39,8 @@ const CardCollectionProvider = (props) => {
   const [hasAbility, setHasAbility] = useState(false);
   const [tera, setTera] = useState(false);
   const [trainerSubtype, setTrainerSubtype] = useState('');
-  console.log(trainerSubtype)
+  const [nonBasic, setNonBasic] = useState(false);
+
   useEffect(() => {
 
     const filterCards = () => {
@@ -95,6 +96,8 @@ const CardCollectionProvider = (props) => {
         arrayCopy = arrayCopy.filter(card => card.trainerSubtype === trainerSubtype)
       }
 
+      if(nonBasic) arrayCopy = arrayCopy.filter(card => card.nonBasicEnergy)
+
       setCardArray(arrayCopy);
     }
 
@@ -102,7 +105,7 @@ const CardCollectionProvider = (props) => {
       filterCards();
     }
 
-  }, [collection, cardType, rarity, pokemonTypes, stage, weakness, resistance, retreat, hp, moveCost, ex, hasAbility, tera, trainerSubtype]);
+  }, [collection, cardType, rarity, pokemonTypes, stage, weakness, resistance, retreat, hp, moveCost, ex, hasAbility, tera, trainerSubtype, nonBasic]);
 
 
   return (
@@ -136,7 +139,9 @@ const CardCollectionProvider = (props) => {
       tera,
       setTera,
       trainerSubtype,
-      setTrainerSubtype
+      setTrainerSubtype,
+      nonBasic,
+      setNonBasic
     }}> 
       {props.children}
     </CardCollectionContext.Provider>

@@ -12,6 +12,7 @@ import HPFilter from './Filters/HPFilter';
 import MoveCostFilter from './Filters/MoveCostFilter';
 import ExAbilityTeraFilter from './Filters/ExAbilityTeraFilter';
 import TrainerSubtypeFilter from './Filters/TrainerSubtypeFilter';
+import NonBasicEnergyFilter from './Filters/NonBasicEnergyFilter';
 
 export default function FilterPanel() {
   const { showFilter, setShowFilter, cardType } = useContext(CardCollectionContext);
@@ -40,6 +41,10 @@ export default function FilterPanel() {
       {
         (cardType === 'trainer' || !cardType) &&
         <TrainerSubtypeFilter />
+      }
+      {
+        (cardType === 'energy' || !cardType) &&
+        <NonBasicEnergyFilter />
       }
     </Drawer>
   )
