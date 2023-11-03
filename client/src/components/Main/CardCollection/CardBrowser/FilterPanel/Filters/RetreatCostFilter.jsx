@@ -9,7 +9,7 @@ export default function RetreatCostFilter() {
       <FormLabel id="retreat-filter">RETREAT COST</FormLabel>
       <RadioGroup
         aria-labelledby="retreat-filter"
-        defaultValue={retreat}
+        value={retreat}
         name="retreat-filter-group"
         onChange={(e) => setRetreat(parseInt(e.target.value))}
       >

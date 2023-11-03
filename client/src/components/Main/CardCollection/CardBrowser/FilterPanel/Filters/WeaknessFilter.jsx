@@ -10,7 +10,7 @@ export default function WeaknessFilter() {
       <FormLabel id="weakness-filter">WEAKNESS</FormLabel>
       <RadioGroup
         aria-labelledby="weakness-filter"
-        defaultValue={weakness}
+        value={weakness}
         name="weakness-filter-group"
         onChange={(e) => setWeakness(e.target.value)}
       >

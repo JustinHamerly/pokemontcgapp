@@ -9,7 +9,7 @@ export default function RarityFilter() {
       <FormLabel id="card-type-filter">RARITY</FormLabel>
       <RadioGroup
         aria-labelledby="card-type-filter"
-        defaultValue={rarity}
+        value={rarity}
         name="card-type-filter-group"
         onChange={(e) => setRarity(e.target.value)}
       >

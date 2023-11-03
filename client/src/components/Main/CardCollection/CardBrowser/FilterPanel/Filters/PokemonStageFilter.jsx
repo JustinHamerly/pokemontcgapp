@@ -9,7 +9,7 @@ export default function PokemonStageFilter() {
       <FormLabel id="stage-filter">POKEMON STAGE</FormLabel>
       <RadioGroup
         aria-labelledby="stage-filter"
-        defaultValue={stage}
+        value={stage}
         name="stage-filter-group"
         onChange={(e) => setStage(e.target.value)}
       >

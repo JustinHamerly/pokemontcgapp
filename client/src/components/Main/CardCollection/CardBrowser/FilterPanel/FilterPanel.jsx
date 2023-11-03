@@ -10,6 +10,8 @@ import ResistanceFilter from './Filters/ResistanceFilter';
 import RetreatCostFilter from './Filters/RetreatCostFilter';
 import HPFilter from './Filters/HPFilter';
 import MoveCostFilter from './Filters/MoveCostFilter';
+import ExAbilityTeraFilter from './Filters/ExAbilityTeraFilter';
+import TrainerSubtypeFilter from './Filters/TrainerSubtypeFilter';
 
 export default function FilterPanel() {
   const { showFilter, setShowFilter, cardType } = useContext(CardCollectionContext);
@@ -32,7 +34,12 @@ export default function FilterPanel() {
           <RetreatCostFilter />
           <HPFilter />
           <MoveCostFilter />
+          <ExAbilityTeraFilter />
         </>
+      }
+      {
+        (cardType === 'trainer' || !cardType) &&
+        <TrainerSubtypeFilter />
       }
     </Drawer>
   )

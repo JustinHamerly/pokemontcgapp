@@ -10,7 +10,7 @@ export default function ResistanceFilter() {
       <FormLabel id="resistance-filter">RESISTANCE</FormLabel>
       <RadioGroup
         aria-labelledby="resistance-filter"
-        defaultValue={resistance}
+        value={resistance}
         name="resistance-filter-group"
         onChange={(e) => setResistance(e.target.value)}
       >
