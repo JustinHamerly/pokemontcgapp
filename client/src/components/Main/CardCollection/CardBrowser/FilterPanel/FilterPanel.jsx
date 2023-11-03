@@ -8,6 +8,8 @@ import PokemonStageFilter from './Filters/PokemonStageFilter';
 import WeaknessFilter from './Filters/WeaknessFilter';
 import ResistanceFilter from './Filters/ResistanceFilter';
 import RetreatCostFilter from './Filters/RetreatCostFilter';
+import HPFilter from './Filters/HPFilter';
+import MoveCostFilter from './Filters/MoveCostFilter';
 
 export default function FilterPanel() {
   const { showFilter, setShowFilter, cardType } = useContext(CardCollectionContext);
@@ -28,6 +30,8 @@ export default function FilterPanel() {
           <WeaknessFilter />
           <ResistanceFilter />
           <RetreatCostFilter />
+          <HPFilter />
+          <MoveCostFilter />
         </>
       }
     </Drawer>
