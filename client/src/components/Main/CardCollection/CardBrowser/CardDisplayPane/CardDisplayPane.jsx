@@ -14,7 +14,7 @@ export default function CardDisplayPane() {
       flexWrap: 'wrap',
       justifyContent: 'space-evenly'
     }}>
-      {cardArray && cardArray.map(card => <DisplayCard key={card.id} cardImg={'./cardImgs'+card.imgPath} name={card.name} />)}
+      {cardArray && cardArray.map(card => <DisplayCard key={card.id} id={card.id} cardImg={'./cardImgs'+card.imgPath} name={card.name} />)}
     </Box>
 
   )
